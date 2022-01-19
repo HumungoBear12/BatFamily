@@ -3,33 +3,34 @@ import Home from './Pages/Home'
 import Banner from './Components/Banner'
 import Footer from './Components/Footer'
 import NavBar from './Components/NavBar'
+import Character from './Pages/Characters'
+import VideoGames from './Pages/VideoGames'
+import Television from './Pages/Television'
+import Movies from './Pages/Movies'
 import {
-  Switch,
-  Route,
+  BrowserRouter as Router,
+  Routes,
+  Route
 } from "react-router-dom";
-import Links from './Util/Links' 
 const App = () => {
     return (
-        <div>
-           <Navbar/>
-            <Banner/>
-            <Switch>
-            <Route exact path="/">
-            <Home />
-            </Route>
-            {Links
-            .filter((link) => link.text !== "Home")
-            .map((link) => {
-                const { id, url, page } = link;
-                return (
-                <Route key={id} path={url}>
-                    {page}
-                </Route>
-                );
-            })}
-            </Switch>
-            <Footer/>
-        </div>
+           <div>
+               <Router>
+                    <div>
+                        <NavBar />
+                        <p style={{height: '10vh'}} />
+                        <Routes>
+                            <Route index element={<Home />} />
+                            <Route path='Characters' element={(<Character/>)} />
+                            <Route path='Television' element={(<Television/>)} />
+                            <Route path='Movies' element={(<Movies/>)} />
+                            <Route path='VideoGames' element={(<VideoGames/>)} />
+                        </Routes>
+                    </div>
+                </Router>
+                <Banner/>
+                <Footer/>
+           </div>
     )
 }
 

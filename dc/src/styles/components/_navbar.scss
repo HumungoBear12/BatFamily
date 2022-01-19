@@ -1,0 +1,24 @@
+.Navbar {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+}
+.nav {
+  font-size: 3.5rem;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 2rem;
+  left: 6rem;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline blue wavy;
+}
