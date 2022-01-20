@@ -23,13 +23,15 @@ summary {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 img,
@@ -51,6 +53,7 @@ blockquote,
 q {
   quotes: none;
 }
+
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -99,19 +102,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type=radio] {
+input [type="radio"] {
   vertical-align: text-bottom;
 }
 
-input [type=checkbox] {
+input [type="checkbox"] {
   vertical-align: bottom;
 }
 
-.ie7 input [type=checkbox] {
+.ie7 input [type="checkbox"] {
   vertical-align: baseline;
 }
 
-.ie6 input[type=checkbox] {
+.ie6 input[type="checkbox"] {
   vertical-align: text-bottom;
 }
 
@@ -146,15 +149,15 @@ sub {
 
 .clickable,
 label,
-input[type=button],
-input[type=submit],
-input[type=file],
+input[type="button"],
+input[type="submit"],
+input[type="file"],
 button {
   cursor: pointer;
 }
 
 button,
-input[type=button] {
+input[type="button"] {
   width: auto;
   overflow: hidden;
 }
@@ -197,28 +200,39 @@ body {
   border-top: 3px white groove;
   border-bottom: 3px white groove;
   position: absolute;
-  top: 7rem;
+  top: 10rem;
   width: 100%;
   height: 35rem;
 }
 
 .Navbar {
-  width: 50%;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Batman;
+  font-size: .7rem;
+  margin-top: 1rem;
 }
 
 .nav {
-  font-size: 3.5rem;
-  text-align: left;
+  font-weight: lighter;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4rem;
+  text-align: center;
   color: white;
-  position: absolute;
-  top: 2rem;
-  left: 6rem;
+  width: 80%;
+  font-family: Batman;
+  border-bottom: solid white 3px;
 }
 
 .link {
@@ -227,6 +241,12 @@ body {
 }
 
 .link:hover {
-  -webkit-text-decoration: underline blue wavy;
-          text-decoration: underline blue wavy;
-}/*# sourceMappingURL=index.css.map */
+  -webkit-text-decoration: underline wavy #c5c5c5;
+          text-decoration: underline wavy #c5c5c5;
+}
+
+@font-face {
+  font-family: Batman;
+  src: url("../Fonts/Batman.ttf");
+}
+/*# sourceMappingURL=index.css.map */
