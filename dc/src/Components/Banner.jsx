@@ -3,7 +3,7 @@ import React from 'react'
 const Banner = () => {
     return (
         <div>
-            <img className="banner" src="https://static2.srcdn.com/wordpress/wp-content/uploads/2019/10/Bat-Family-in-Batwoman.jpg" alt="" />
+            <img className="banner" src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/10/Bat-Family-feature.jpg" alt="" />
         </div>
     )
 }

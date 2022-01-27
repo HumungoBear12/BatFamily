@@ -1,0 +1,59 @@
+$background-color1:rgba(15, 15, 15, 0.99);
+
+.batArt{
+    position: absolute;
+    left: 3rem;
+    top: 47rem;
+    background-color: $background-color1;
+    box-shadow: inset, $dark-shadow $dark-shadow;
+    height: 40rem;
+    width: 30rem;
+    border-radius: $radius;
+}
+.batHead1{
+    text-align: center;
+    color: white;
+    font-family: Batman;
+    margin-top: 1rem;
+}
+.batInfo1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    font-family: Batman;
+}
+.break{
+    background-color: white;
+    height: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.iframe{
+    position: absolute;
+    right: 3rem;
+    top: 47rem;
+    width:55rem;
+    height:30rem;
+    border-radius:.75rem;
+}
+.batHead2{
+    position: absolute;
+    right:3rem;
+    top: 80rem;
+    background-color:$background-color1;
+    height:45rem;
+    width:55rem;
+    border-radius:.75rem;
+}
+.batIMG{
+    height:35rem;
+    width:25rem;
+    position: absolute;
+    top: 90rem;
+    border-radius:.75rem;
+    left: 5rem;
+}

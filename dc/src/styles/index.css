@@ -183,7 +183,10 @@ input[type="button"] {
 /* lightest grey - used for outlines */
 /* Other Colors used */
 body {
-  background-color: black;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%23FFFFFF'/%3E%3Cstop offset='1' stop-color='%2304006F'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23FFFFFF'/%3E%3Cstop offset='1' stop-color='%23000139'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='2'%3E%3Cpath transform='translate(-120.75 -28.4) rotate(-32.75 1409 581) scale(0.7202999999999999)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='4' transform='translate(-279 129) rotate(-11.3 800 450) scale(0.9642499999999998)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(-43.9 63) rotate(-163 401 736) scale(0.9642499999999998)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='4'%3E%3Cpath transform='translate(774 48.4) rotate(-12.1 150 345) scale(1.0681)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='8' transform='translate(34 -372.5) rotate(-255.6 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-214 18) rotate(-42.6 1400 132) scale(0.5)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* dark shades of primary color*/
@@ -196,6 +199,71 @@ body {
 /* grey used for paragraphs */
 /* lightest grey - used for outlines */
 /* Other Colors used */
+.batArt {
+  position: absolute;
+  left: 3rem;
+  top: 47rem;
+  background-color: rgba(15, 15, 15, 0.99);
+  -webkit-box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+  height: 40rem;
+  width: 30rem;
+  border-radius: 0.75rem;
+}
+
+.batHead1 {
+  text-align: center;
+  color: white;
+  font-family: Batman;
+  margin-top: 1rem;
+}
+
+.batInfo1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+  font-family: Batman;
+}
+
+.break {
+  background-color: white;
+  height: .5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.iframe {
+  position: absolute;
+  right: 3rem;
+  top: 47rem;
+  width: 55rem;
+  height: 30rem;
+  border-radius: .75rem;
+}
+
+.batHead2 {
+  position: absolute;
+  right: 3rem;
+  top: 80rem;
+  background-color: rgba(15, 15, 15, 0.99);
+  height: 45rem;
+  width: 55rem;
+  border-radius: .75rem;
+}
+
+.batIMG {
+  height: 35rem;
+  width: 25rem;
+  position: absolute;
+  top: 90rem;
+  border-radius: .75rem;
+  left: 5rem;
+}
+
 .banner {
   border-top: 3px white groove;
   border-bottom: 3px white groove;
@@ -243,6 +311,22 @@ body {
 .link:hover {
   -webkit-text-decoration: underline wavy #c5c5c5;
           text-decoration: underline wavy #c5c5c5;
+}
+
+.footer {
+  width: 100%;
+  height: 25rem;
+  background-color: black;
+  position: absolute;
+  top: 130rem;
+  border-top: 1px solid white;
+}
+
+.holder {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 75rem;
+  border-radius: 0.75rem;
 }
 
 @font-face {
