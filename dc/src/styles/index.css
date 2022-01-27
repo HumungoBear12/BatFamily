@@ -23,15 +23,13 @@ summary {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img,
@@ -53,7 +51,6 @@ blockquote,
 q {
   quotes: none;
 }
-
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -102,19 +99,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type="radio"] {
+input [type=radio] {
   vertical-align: text-bottom;
 }
 
-input [type="checkbox"] {
+input [type=checkbox] {
   vertical-align: bottom;
 }
 
-.ie7 input [type="checkbox"] {
+.ie7 input [type=checkbox] {
   vertical-align: baseline;
 }
 
-.ie6 input[type="checkbox"] {
+.ie6 input[type=checkbox] {
   vertical-align: text-bottom;
 }
 
@@ -149,15 +146,15 @@ sub {
 
 .clickable,
 label,
-input[type="button"],
-input[type="submit"],
-input[type="file"],
+input[type=button],
+input[type=submit],
+input[type=file],
 button {
   cursor: pointer;
 }
 
 button,
-input[type="button"] {
+input[type=button] {
   width: auto;
   overflow: hidden;
 }
@@ -189,6 +186,11 @@ body {
   background-size: cover;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* dark shades of primary color*/
 /* The primary/main color */
 /* lighter shades of primary color */
@@ -204,8 +206,7 @@ body {
   left: 3rem;
   top: 47rem;
   background-color: rgba(15, 15, 15, 0.99);
-  -webkit-box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
   height: 40rem;
   width: 30rem;
   border-radius: 0.75rem;
@@ -230,7 +231,7 @@ body {
 
 .break {
   background-color: white;
-  height: .5rem;
+  height: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   width: 85%;
@@ -242,7 +243,7 @@ body {
   top: 47rem;
   width: 55rem;
   height: 30rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
 
 .batHead2 {
@@ -252,7 +253,7 @@ body {
   background-color: rgba(15, 15, 15, 0.99);
   height: 45rem;
   width: 55rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
 
 .batIMG {
@@ -260,7 +261,7 @@ body {
   width: 25rem;
   position: absolute;
   top: 90rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
   left: 5rem;
 }
 
@@ -274,19 +275,14 @@ body {
 }
 
 .Navbar {
-  width: 75%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  width: 80%;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   font-family: Batman;
-  font-size: .7rem;
+  font-size: 0.8rem;
   margin-top: 1rem;
 }
 
@@ -322,6 +318,46 @@ body {
   border-top: 1px solid white;
 }
 
+.footerHolder {
+  margin-left: 5rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FootCon {
+  color: white;
+  text-align: center;
+}
+
+.FootSoc {
+  color: white;
+  text-align: center;
+}
+
+.FootLinks {
+  text-align: center;
+  color: white;
+}
+
+.Socials {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.Links {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.contact {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
 .holder {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -332,5 +368,4 @@ body {
 @font-face {
   font-family: Batman;
   src: url("../Fonts/Batman.ttf");
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

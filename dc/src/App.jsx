@@ -27,9 +27,10 @@ const App = () => {
                             <Route path='VideoGames' element={(<VideoGames/>)} />
                         </Routes>
                     </div>
-                </Router>
-                <Banner/>
+                    <Banner/>
                 <Footer/>
+                </Router>
+                
            </div>
     )
 }

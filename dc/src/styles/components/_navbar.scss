@@ -1,12 +1,12 @@
 .Navbar {
-  width:75%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   font-family: Batman;
-  font-size: .7rem;
+  font-size: 0.8rem;
   margin-top: 1rem;
 }
 .nav {
@@ -24,9 +24,7 @@
 .link {
   color: white;
   text-decoration: none;
-  
 }
 .link:hover {
   text-decoration: underline wavy rgb(197, 197, 197);
-  
 }
