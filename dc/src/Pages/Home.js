@@ -7,7 +7,13 @@ const Home = () => {
            <div className='batArt'>
                 <h1 className='batHead1'>The Bat-Family</h1>
                 <div className='break'></div>
-                <p className='batInfo1'></p>
+                <div className='BatInfoHold1'>
+                    <p className='BatInfo1'>The group usually are seen interacting with one another and assisting in each other's cases in their respective series. When a new vigilante emerges in the city Batman deduces their identity relatively quickly. Although some members occasionally resent Batman’s intrusion into their lives, all respect him as a legend within the superhero community and rarely challenge his authority.
+
+Most of the members also have a strong rapport with the Dark Knight due to their long and close relationships with him over the years, and consider him a close friend as well as ally.
+
+In a 2002 storyline in which Bruce Wayne, Batman’s secret identity, is accused of murder, Batman's friends gather to prove his innocence. It has also been implied through Batman's history that this network serves as a surrogate family for Batman and keeps him from slipping too far into his ruthless vigilante persona.</p>
+                </div>
            </div>
             <div className='VideoHolder'>
             <iframe className='iframe' width="560" height="315" src="https://www.youtube.com/embed/6Jja19y1_UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -15,7 +21,36 @@ const Home = () => {
             <div className='batHead2'>
                 <h1 className='batHead1'>The Familys History</h1>
                 <div className='break'></div>
-
+                <h3 className='BatCharList'>This will show the family Growing with members from when it first started on Earth Two, to now during the New 52 area. It will show you every member that was or still is in the family.</h3>
+                <div className="BatAges">
+                    <div>
+                        <ul>
+                            <li><p className='BatAgeListHead1'>Golden Age(Earth Two)</p></li>
+                            <li className='BatFamListHead1'>Bruce Wayne/Batman</li>
+                            <li className='BatFamListHead1'>Richard 'Dick' Grayson/Robin</li>
+                            <li className='BatFamListHead1'>Bette Kane/Batgirl</li>
+                            <li className='BatFamListHead1'>Selina Kyle-Wayne / Catwoman </li>
+                            <li className='BatFamListHead1'>Helena Wayne / Huntress</li>
+                            <li className='BatFamListHead1'>Katherine "Kathy" Kane / Batwoman</li>
+                            <li className='BatFamListHead1'>Alfred Beagle</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><p className='BatAgeListHead2'>Silver Age(Earth One)</p></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><p className='BatAgeListHead3'>Post Crisis (New Earth)</p></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><p className='BatAgeListHead4'>New 52 (Prime Earth)</p></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div>
                 <img className='batIMG' src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b1e8222d-fbb1-4cd3-b1d1-4a3e1589cc4f/de9z4nt-9686448f-1cf5-4e55-8385-776d46827065.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IxZTgyMjJkLWZiYjEtNGNkMy1iMWQxLTRhM2UxNTg5Y2M0ZlwvZGU5ejRudC05Njg2NDQ4Zi0xY2Y1LTRlNTUtODM4NS03NzZkNDY4MjcwNjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RMyoh4X_I8hsMBR8q0Zg_9Z-VQXxe1B6-o2_dRf6nwo" alt="Batman IMG"></img>

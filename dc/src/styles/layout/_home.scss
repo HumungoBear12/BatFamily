@@ -1,59 +1,131 @@
-$background-color1:rgba(15, 15, 15, 0.99);
+$background-color1: rgba(15, 15, 15, 0.99);
 
-.batArt{
-    position: absolute;
-    left: 3rem;
-    top: 47rem;
-    background-color: $background-color1;
-    box-shadow: inset, $dark-shadow $dark-shadow;
-    height: 40rem;
-    width: 30rem;
-    border-radius: $radius;
+.batArt {
+  position: absolute;
+  left: 3rem;
+  top: 47rem;
+  background-color: $background-color1;
+  box-shadow: inset, $dark-shadow $dark-shadow;
+  height: 40rem;
+  width: 30rem;
+  border-radius: $radius;
 }
-.batHead1{
-    text-align: center;
-    color: white;
-    font-family: Batman;
-    margin-top: 1rem;
+.batHead1 {
+  text-align: center;
+  color: white;
+  font-family: Batman;
+  margin-top: 1rem;
 }
-.batInfo1{
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    margin-top: 1rem;
-    text-align: center;
-    color: white;
-    font-family: Batman;
+.BatMini1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  border-bottom: white 3px solid;
 }
-.break{
-    background-color: white;
-    height: .5rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
+.BatInfoHold1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
 }
-.iframe{
-    position: absolute;
-    right: 3rem;
-    top: 47rem;
-    width:55rem;
-    height:30rem;
-    border-radius:.75rem;
+.BatInfo1 {
+  font-size: 1.2rem;
 }
-.batHead2{
-    position: absolute;
-    right:3rem;
-    top: 80rem;
-    background-color:$background-color1;
-    height:45rem;
-    width:55rem;
-    border-radius:.75rem;
+.break {
+  background-color: white;
+  height: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }
-.batIMG{
-    height:35rem;
-    width:25rem;
-    position: absolute;
-    top: 90rem;
-    border-radius:.75rem;
-    left: 5rem;
+.iframe {
+  position: absolute;
+  right: 3rem;
+  top: 47rem;
+  width: 55rem;
+  height: 30rem;
+  border-radius: 0.75rem;
+}
+.batHead2 {
+  position: absolute;
+  right: 3rem;
+  top: 80rem;
+  background-color: $background-color1;
+  height: 45rem;
+  width: 55rem;
+  border-radius: 0.75rem;
+}
+.batIMG {
+  height: 35rem;
+  width: 25rem;
+  position: absolute;
+  top: 90rem;
+  border-radius: 0.75rem;
+  left: 5rem;
+}
+.BatAges {
+  width: 96%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.BatAgeListHead1 {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  border-bottom: 2px white solid;
+}
+.BatAgeListHead2 {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  border-bottom: 2px white solid;
+}
+.BatAgeListHead3 {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  border-bottom: 2px white solid;
+}
+.BatAgeListHead4 {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  border-bottom: 2px white solid;
+}
+.BatAgeListHead1:hover {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.BatAgeListHead2:hover {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.BatAgeListHead3:hover {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.BatAgeListHead4:hover {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.BatFamListHead1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+.BatCharList {
+  color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }

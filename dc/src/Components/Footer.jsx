@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { BsInstagram } from 'react-icons/bs';
+import { BsTwitter } from 'react-icons/bs';
+import { FaTiktok } from 'react-icons/fa';
+import { FaSnapchatSquare } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -7,7 +11,7 @@ const Footer = () => {
             <div className="footerHolder">
                 <div>
                     <ul className="contact">
-                        <li className='FootCon'><h1>Andrew Makris</h1></li>
+                        <li className='FootCon1'><h1>Contact </h1></li>
                         <li className='FootCon'><p>623-806-9966</p></li>
                         <li className='FootCon'><p>amakris03@gmail.com</p></li>
                         <li className='FootCon'><a href="https://github.com/Amakris12"><p>Github</p></a></li>
@@ -16,16 +20,16 @@ const Footer = () => {
                 </div>
             <div>
                 <ul className="Socials">
-                <li className='FootSocial'><h1>Social Medias</h1></li>
-                <li className='FootSoc'><a href=""><p>Instagram</p></a></li>
-                <li className='FootSoc'><a href=""><p>Twitter</p></a></li>
-                <li className='FootSoc'><a href=""><p>TikTok</p></a></li>
-                <li className='FootSoc'><a href=""><p>SnapChat</p></a></li>
+                <li className='FootSocial1'><h1>Social Medias</h1></li>
+                <li className='FootSoc'><a href=""><p><BsInstagram/> Instagram</p></a></li>
+                <li className='FootSoc'><a href=""><p><BsTwitter/> Twitter</p></a></li>
+                <li className='FootSoc'><a href=""><p><FaTiktok/> TikTok</p></a></li>
+                <li className='FootSoc'><a href=""><p><FaSnapchatSquare/> SnapChat</p></a></li>
             </ul>
             </div>
             <div>
                 <ul className="Links">
-                <li className='FootNav'><h1>Navigation</h1></li>
+                <li className='FootNav1'><h1>Navigation</h1></li>
                 <li className='FootLinks'><Link to="/"><p>Home</p></Link></li>
                 <li className='FootLinks'><Link to="/Characters"><p>Characters</p></Link></li>
                 <li className='FootLinks'><Link to="/Television"><p>Television</p></Link></li>
