@@ -265,8 +265,8 @@ a {
   right: 3rem;
   top: 80rem;
   background-color: rgba(15, 15, 15, 0.99);
-  height: 45rem;
-  width: 55rem;
+  height: 46rem;
+  width: 53em;
   border-radius: 0.75rem;
 }
 
@@ -284,6 +284,8 @@ a {
   display: flex;
   justify-content: space-evenly;
   margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .BatAgeListHead1 {
@@ -350,6 +352,177 @@ a {
   width: 85%;
 }
 
+.BatlistCharacters {
+  height: 100%;
+  border: 3px white solid;
+}
+
+.Charhold {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Character {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px #0077ff solid;
+}
+
+.CharacterHolder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 43rem;
+  height: 64rem;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  box-shadow: white 1px 1px 1px 1px;
+}
+
+.CharacterIMG {
+  margin-left: auto;
+  border-radius: 0.75rem;
+  margin-right: auto;
+  display: block;
+  height: 24rem;
+  width: 35rem;
+  margin-top: 0rem;
+}
+
+.CharacterHero {
+  margin-top: 0.5rem;
+  color: white;
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+}
+
+.CharacterHero:hover {
+  font-size: 3.4rem;
+}
+
+.CharacterName {
+  color: white;
+  text-align: center;
+}
+
+.CharacterOrigin {
+  color: white;
+  text-align: center;
+  border-top: 2px #0077ff solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Origin {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.whowhowho {
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  border-bottom: 1px #0077ff solid;
+}
+
+.CharacterMeasurement {
+  text-align: left;
+  margin-left: 0.6rem;
+  color: white;
+}
+
+.Measurments {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #0077ff solid;
+}
+
+.CharacterVillains {
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  border-bottom: 1px #0077ff solid;
+}
+
+.BatVillains {
+  text-align: center;
+  color: white;
+}
+
+.Villains {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #0077ff solid;
+}
+
+.SkillsHolder {
+  border: 1px #0077ff solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SkillsHeader {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px #0077ff solid;
+}
+
+.CharacterSkills {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-top: 0.3rem;
+  margin-right: auto;
+}
+
+.imgVillain {
+  height: 10rem;
+  width: 8rem;
+}
+
+.Btn-link {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 0.75rem;
+  background-color: rgba(0, 119, 255, 0.8);
+}
+
+.btn-Text {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .banner {
   border-top: 3px white groove;
   border-bottom: 3px white groove;
@@ -395,12 +568,14 @@ a {
           text-decoration: underline wavy #c5c5c5;
 }
 
+.link:active {
+  color: yellow;
+}
+
 .footer {
   width: 100%;
   height: 12rem;
   background-color: black;
-  position: absolute;
-  top: 130rem;
   border-top: 1px solid white;
 }
 
@@ -409,6 +584,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
@@ -469,11 +645,28 @@ a {
   display: block;
 }
 
-.holder {
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  width: 75rem;
-  border-radius: 0.75rem;
+.FootLinks:hover {
+  font-size: 1.3rem;
+}
+
+.FootSoc:hover {
+  font-size: 1.3rem;
+}
+
+.FootCon:hover {
+  font-size: 1.2rem;
+}
+
+.FootLinks:focus {
+  color: yellow;
+}
+
+.FootSoc:active {
+  color: yellow;
+}
+
+.FootCon:active {
+  color: yellow;
 }
 
 @font-face {

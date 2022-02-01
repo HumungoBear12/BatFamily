@@ -24,11 +24,11 @@ In a 2002 storyline in which Bruce Wayne, Batman’s secret identity, is accused
                 <h3 className='BatCharList'>This will show the family Growing with members from when it first started on Earth Two, to now during the New 52 area. It will show you every member that was or still is in the family.</h3>
                 <div className="BatAges">
                     <div>
-                        <ul>
+                        <ul className='BatlistCharacters'>
                             <li><p className='BatAgeListHead1'>Golden Age(Earth Two)</p></li>
-                            <li className='BatFamListHead1'>Bruce Wayne/Batman</li>
-                            <li className='BatFamListHead1'>Richard 'Dick' Grayson/Robin</li>
-                            <li className='BatFamListHead1'>Bette Kane/Batgirl</li>
+                            <li className='BatFamListHead1'>Bruce Wayne / Batman</li>
+                            <li className='BatFamListHead1'>Dick Grayson / Robin</li>
+                            <li className='BatFamListHead1'>Bette Kane / Batgirl</li>
                             <li className='BatFamListHead1'>Selina Kyle-Wayne / Catwoman </li>
                             <li className='BatFamListHead1'>Helena Wayne / Huntress</li>
                             <li className='BatFamListHead1'>Katherine "Kathy" Kane / Batwoman</li>
@@ -36,18 +36,63 @@ In a 2002 storyline in which Bruce Wayne, Batman’s secret identity, is accused
                         </ul>
                     </div>
                     <div>
-                        <ul>
+                        <ul className='BatlistCharacters'>
                             <li><p className='BatAgeListHead2'>Silver Age(Earth One)</p></li>
+                            <li className='BatFamListHead1'>Bruce Wayne / Batman</li>
+                            <li className='BatFamListHead1'>Dick Grayson / Robin, Night-wing</li>
+                            <li className='BatFamListHead1'>Barbra Gordon / Bat-girl</li>
+                            <li className='BatFamListHead1'>Alfred Pennyworth</li>
+                            <li className='BatFamListHead1'>Jason Todd / Robin</li>
+                            <li className='BatFamListHead1'>Bette Kane/Batgirl</li>
+                            <li className='BatFamListHead1'>Katherine "Kathy" Kane / Batwoman</li>
+                            <li className='BatFamListHead1'>Ace the Bat-Hound</li>
+                            <li className='BatFamListHead1'>Bat-Mite</li>
                         </ul>
                     </div>
                     <div>
-                        <ul>
+                        <ul className='BatlistCharacters'>
                             <li><p className='BatAgeListHead3'>Post Crisis (New Earth)</p></li>
+                            <li className='BatFamListHead1'>Bruce Wayne / Batman</li>
+                            <li className='BatFamListHead1'>Dick Grayson / Robin, Night-wing, Batman</li>
+                            <li className='BatFamListHead1'>Tim Drake / Robin, Red-Robin</li>
+                            <li className='BatFamListHead1'>Barbra Gordon / Bat-girl, Oracle</li>
+                            <li className='BatFamListHead1'>Jason Todd / Robin, Red-Hood</li>
+                            <li className='BatFamListHead1'>Selina Kyle-Wayne / Cat-woman </li>
+                            <li className='BatFamListHead1'>Damien Wayne / Robin</li>
+                            <li className='BatFamListHead1'>Helena Wayne / Huntress</li>
+                            <li className='BatFamListHead1'>CassandraCain /Bat-girl, Black-Cat </li>
+                            <li className='BatFamListHead1'>Jean-Paul Valley / Azrael, Batman</li>
+                            <li className='BatFamListHead1'>Alfred Pennyworth</li> 
+                            <li className='BatFamListHead1'>Lucius Fox</li>
+                            <li className='BatFamListHead1'>Onyx Adams</li>
                         </ul>
                     </div>
-                    <div>
-                        <ul>
+                    <div >
+                        <ul className='BatlistCharacters'>
                             <li><p className='BatAgeListHead4'>New 52 (Prime Earth)</p></li>
+                            <li className='BatFamListHead1'>Bruce Wayne / Batman</li>
+                            <li className='BatFamListHead1'>Dick Grayson / Robin, Night-wing, Batman</li>
+                            <li className='BatFamListHead1'>Tim Drake / Robin, Red-Robin</li>
+                            <li className='BatFamListHead1'>Barbra Gordon / Bat-girl, Oracle</li>
+                            <li className='BatFamListHead1'>Jason Todd / Robin, Red-Hood</li>
+                            <li className='BatFamListHead1'>Selina Kyle-Wayne / Cat-woman </li>
+                            <li className='BatFamListHead1'>Damien Wayne / Robin</li>
+                            <li className='BatFamListHead1'>CassandraCain /Bat-girl</li>
+                            <li className='BatFamListHead1'>Alfred Pennyworth</li> 
+                            <li className='BatFamListHead1'>Jean-Paul Valley / Azrael</li>
+                            <li className='BatFamListHead1'>Claire Clover / Gotham-Girl</li> 
+                            <li className='BatFamListHead1'>Julia Pennyworth</li> 
+                            <li className='BatFamListHead1'>Duke Thomas / Robin, Lark, The Signal</li> 
+                            <li className='BatFamListHead1'>Stephanie Brown / Bat-girl</li>  
+                            <li className='BatFamListHead1'>Hank Clover Jr / Gotham</li> 
+                            <li className='BatFamListHead1'>Luke Fox / Batwing</li> 
+                            <li className='BatFamListHead1'>Katherine "Kathy" Kane / Batwoman</li>
+                            <li className='BatFamListHead1'>Basil Karlo / Clayface</li>
+                            <li className='BatFamListHead1'>Harper Row / Blue-Bird</li>
+                            <li className='BatFamListHead1'>David Zavimbe</li>
+                            <li className='BatFamListHead1'>Harleen Quinzel / Harley Quinn</li>
+
+
                         </ul>
                     </div>
                 </div>

@@ -30,7 +30,6 @@ const App = () => {
                     <Banner/>
                 <Footer/>
                 </Router>
-                
            </div>
     )
 }

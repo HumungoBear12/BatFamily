@@ -1,0 +1,103 @@
+[
+    {
+        "Character":"Batman",
+        "Name":"Bruce Wayne",
+        "Height":"6'2ft",
+        "Weight":"210lbs",
+        "Skills":["Gadgets", "Superhuman Level Strength", "Superhuman Level Agility", "Superhuman Level Intellect", "Money"," Master Detective"," Master Combatant", "Master Weapons Specialist"," Master of Stealth","Utility Belt", "Batarangs", "Pocket Tools"," Hacking Tools"," Freeze Grenades", "Batclaw" ],
+        "BackStory":"Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha, a vendetta tempered with the ideal of justice. He trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night.",
+        "Villains":["The Joker", "The Penguin","Two Face", "ScareCrow","Bane"],
+        "Image":"https://static.wikia.nocookie.net/marvel_dc/images/4/4b/Batman_Vol_3_86_Textless.jpg/revision/latest?cb=20200502132734"
+    },
+    {
+        "Character":"NightWing",
+        "Name":"Dick Grayson",
+        "Height":"5'10ft",
+        "Weight":"175lbs",
+        "Skills":["Gadgets", "Superhuman Level Strength", "Superhuman Level Agility","Master Combatant", "Master Weapons Specialist", "Master Detective", "Genius Intellect","Utility Belt", "Escrima Sticks", "Wing Ding's", "Pocket Tools", "Hacking Tools"],
+        "BackStory":"When his circus acrobat family was brutally murdered, Dick Grayson was taken in by billionaire and bat-friendly super hero Bruce Wayne. Bruce shared his secret life as Batman with the young boy and eventually molded him into Robin—the Dark Knight's partner in Gotham.",
+        "Villains":["DeathStroke","Talon","Paragon","Tony Zucco"],
+        "Image":"https://static.wikia.nocookie.net/marvel_dc/images/f/fe/Nightwing_0002.jpg/revision/latest?cb=20141203170327"
+    },
+    {
+        "Character":"Red Robin",
+        "Name":"Tim Drake",
+        "Height":"5'5ft",
+        "Weight":"125lbs",
+        "Skills":["Gadgets", "Superhuman Level Agility","Master Combatant", "Master Weapons SpecialistMaster Detective", "Genius Intellect","Utility Belt", "Collapsible BōStaff", "Birdarangs", "Grappling Gun", "Pocket Tools"],
+        "BackStory":"As a young boy, Tim was in the audience the night Dick Grayson's parents were murdered and later managed to discover the identities of Batman and the original Robin through their exploits. ... He succeeded Dick as the leader of the Teen Titans, and later led his own superhero team, Young Justice.",
+        "Villains":["Black Mask","Mad Hatter","Maxie Zeus","Harley Quinn"],
+        "Image":"https://static.wikia.nocookie.net/marvel_dc/images/e/e7/Red_Robin_Collision.jpg/revision/latest?cb=20121211024022"
+    },
+    {
+        "Character":"Robin",
+        "Name":"Damien Wayne",
+        "Height":"5'4ft",
+        "Weight":"140lbs",
+        "Skills":["Skilled martial artist","Expert hand-to-hand combatant Master", "Swordsman", "Genius-level intelligence", "Peak physical of human conditioning","Skilled detective","Skilled computer hacker", "Skilled in stealth", "Uses high-tech equipment and weapons" ],
+        "BackStory":"Damian's origin was unknown to Batman. Damian was genetically perfected and grown in an artificial womb to be the perfect warrior. He is raised by his mother Talia al Ghul and the League of Assassins.",
+        "Villains":["Jason Todd","Mad Hatter","Ra's Al Ghul","Talia al Ghul."],
+        "Image":"https://i.pinimg.com/originals/22/ec/8a/22ec8ad5f4f01b119223f76366cfc34d.jpg"
+    },
+    {
+        "Character":"Batgirl",
+        "Name":"Barbra Gordon",
+        "Height":"5'7ft",
+        "Weight":"140lbs",
+        "Skills":["Computer Hacking","Computer Operation","Genius Level Intellect","Investigation","Athletics Martial Arts","Stealth Eidetic Memory","Boxing","Eskrima","Karate","Dragon Style Kung Fu","Judo","Muay Thai","Tae Known Doe"],
+        "BackStory":"Barbara Gordon is the daughter of Gotham City police commissioner James Gordon, the sister of James Gordon Jr., and is initially employed as head of the Gotham City Public Library. ... In subsequent stories, the character was reestablished as a technical advisor, computer expert and information broker known as Oracle.",
+        "Villains":["James Gordon Jr","Joker","Penguin","Condiment King"],
+        "Image":"https://static.wikia.nocookie.net/marvel-dc/images/f/ff/D38be745ee2795e81402cabbabb6912b.jpg/revision/latest?cb=20200414113203"
+    },
+    {
+        "Character":"Red Hood",
+        "Name":"Jason Todd",
+        "Height":"6'0ft",
+        "Weight":"225lbs",
+        "Skills":["Expert marksman", "martial artist", "hand-to-hand combatant","Genius-level intellect", "Highly skilled detective", "Enhanced strength, speed, stamina, agility, reflexes, coordination and durability due to exposure to the Lazarus Pit Utilizing high-tech equipment and weapons"],
+        "BackStory":"he storyline depicts an unnamed criminal wearing a red dome-shaped hood who, after a chance encounter with Batman, is disfigured by chemicals and becomes insane, giving birth to his future Joker persona. Five decades later, the identity was used again in the 2004–2006 Batman: Under the Hood story arc.",
+        "Villains":["Joker","Black Mask","Professor Pyg","Dick Grayson"],
+        "Image":"https://i.pinimg.com/474x/1c/67/c8/1c67c8c2e786f2b8766cc418274a9623.jpg"
+    },
+    {
+        "Character":"Catwoman",
+        "Name":"Selina Kyle",
+        "Height":"5'7ft",
+        "Weight":"125lbs",
+        "Skills":["Superhuman Physical Characteristics","Expert Hand-to-Hand Combatant", "Stealth Mastery", "Weapon Mastery", "Skilled Hacker"],
+        "BackStory":"Selina Kyle was a mild-mannered flight attendant. A terrible plane crash spared her life, but it left her in an amnesiac haze. All she had left of her old life were her memories of her father's pet store, and so she christened herself Catwoman, in tribute to the animals her dad taught her to love.",
+        "Villains":["Bane","Batman","Batwomen","Black Mask"],
+        "Image":"https://cdn11.bigcommerce.com/s-0kvv9/images/stencil/1280x1280/products/301567/428178/jun190487__29354.1562973810.jpg?c=2"
+    },
+    {
+        "Character":"Superman",
+        "Name":"Clark Kent",
+        "Height":"6'3ft",
+        "Weight":"235lbs",
+        "Skills":["Super Stength","Super Speed","Flight","Invulnerability(Besides Kryptonite)","X-ray Vision","Super Hearing","Super Breath","Super Stamina"],
+        "BackStory":"Superman was born on the fictional planet Krypton and was named Kal-El. As a baby, his parents sent him to Earth in a small spaceship moments before Krypton was destroyed in a natural cataclysm. ... He was found and adopted by farmers Jonathan and Martha Kent, who named him Clark Kent.",
+        "Villains":["Lex Luthor", "Brainiac","Darkseid","Doomsday"],
+        "Image":"https://static.wikia.nocookie.net/crusadapedia/images/a/aa/Superman_Vol_3_4_Solicit.jpg/revision/latest?cb=20180528155020"
+    },
+    {
+        "Character":"Alfred",
+        "Name":"Alfred Pennyworth",
+        "Height":"6'0ft",
+        "Weight":"170lbs",
+        "Skills":["Butler","Former Special Forces Agent","Intelligence Expert"],
+        "BackStory":" When Alfred was young, he would accompany his father on hunting trips in Essex during the summer. Born under the name of Alfred Beagle, he grew up in England and joined the army once he became of age. He served in various conflicts all over the world, gaining skill as a field medic.",
+        "Villains":["None because hes Alfred"],
+        "Image":"https://static.wikia.nocookie.net/swampthing/images/a/ad/Alfred_Pennyworth.jpg/revision/latest?cb=20190623042201"
+    },
+    {
+        "Character":"Commissioner Gordon",
+        "Name":"Jim Gordon",
+        "Height":"6'2ft",
+        "Weight":"275",
+        "Skills":["Skilled marksman", "hand-to-hand combatant Master tactician", "strategist", "field commander", "Police training Criminology training"],
+        "BackStory":"James Worthington 'Jim' Gordon is Commissioner of the Gotham City Police Department and one of Batman's most trusted allies. Created by Bill Finger and Bob Kane, he first appeared in Detective Comics #27 (May 1939). He was the first Batman supporting character to be introduced.",
+        "Villains":["Penguin","Riddler","Joker"],
+        "Image":"https://static.wikia.nocookie.net/batman/images/6/6d/James_Gordon_DCnU.jpg/revision/latest?cb=20120225201127"
+    }
+]
+

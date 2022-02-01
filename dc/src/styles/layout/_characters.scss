@@ -1,0 +1,148 @@
+$clr-Blue: hsla(212, 100%, 50%);
+.Charhold {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Character {
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $clr-Blue solid;
+}
+.CharacterHolder {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 43rem;
+  height: 64rem;
+  background-color: rgb(14, 14, 14);
+  // position: relative;
+  // top: 35rem;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  box-shadow: white 1px 1px 1px 1px;
+}
+.CharacterIMG {
+  margin-left: auto;
+  border-radius: 0.75rem;
+  margin-right: auto;
+  display: block;
+  height: 24rem;
+  width: 35rem;
+  margin-top: 0rem;
+}
+.CharacterHero {
+  margin-top: 0.5rem;
+  color: white;
+  text-align: center;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+}
+.CharacterHero:hover {
+  font-size: 3.4rem;
+}
+.CharacterName {
+  color: white;
+  text-align: center;
+}
+.CharacterOrigin {
+  color: white;
+  text-align: center;
+  border-top: 2px $clr-Blue solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Origin {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+}
+.whowhowho {
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  border-bottom: 1px $clr-Blue solid;
+}
+.CharacterMeasurement {
+  text-align: left;
+  margin-left: 0.6rem;
+  color: white;
+}
+.Measurments {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $clr-Blue solid;
+}
+.CharacterVillains {
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  border-bottom: 1px $clr-Blue solid;
+}
+.BatVillains {
+  text-align: center;
+  color: white;
+}
+.Villains {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $clr-Blue solid;
+}
+.SkillsHolder {
+  border: 1px $clr-Blue solid;
+  background-color: rgb(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $clr-Blue solid;
+}
+.CharacterSkills {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-top: 0.3rem;
+  margin-right: auto;
+}
+.imgVillain {
+  height: 10rem;
+  width: 8rem;
+}
+.Btn-link {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 0.75rem;
+  background-color: hsla(212, 100%, 50%, 0.8);
+}
+.btn-Text {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
