@@ -18,6 +18,7 @@ const App = () => {
                <Router>
                     <div>
                         <NavBar />
+                        <Banner/>
                         <p style={{height: '10vh'}} />
                         <Routes>
                             <Route index element={<Home />} />
@@ -27,7 +28,7 @@ const App = () => {
                             <Route path='VideoGames' element={(<VideoGames/>)} />
                         </Routes>
                     </div>
-                    <Banner/>
+                    
                 <Footer/>
                 </Router>
            </div>

@@ -23,13 +23,15 @@ summary {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 img,
@@ -51,6 +53,7 @@ blockquote,
 q {
   quotes: none;
 }
+
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -99,19 +102,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type=radio] {
+input [type="radio"] {
   vertical-align: text-bottom;
 }
 
-input [type=checkbox] {
+input [type="checkbox"] {
   vertical-align: bottom;
 }
 
-.ie7 input [type=checkbox] {
+.ie7 input [type="checkbox"] {
   vertical-align: baseline;
 }
 
-.ie6 input[type=checkbox] {
+.ie6 input[type="checkbox"] {
   vertical-align: text-bottom;
 }
 
@@ -146,15 +149,15 @@ sub {
 
 .clickable,
 label,
-input[type=button],
-input[type=submit],
-input[type=file],
+input[type="button"],
+input[type="submit"],
+input[type="file"],
 button {
   cursor: pointer;
 }
 
 button,
-input[type=button] {
+input[type="button"] {
   width: auto;
   overflow: hidden;
 }
@@ -206,7 +209,8 @@ a {
   left: 3rem;
   top: 47rem;
   background-color: rgba(15, 15, 15, 0.99);
-  box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
   height: 40rem;
   width: 30rem;
   border-radius: 0.75rem;
@@ -281,8 +285,12 @@ a {
 
 .BatAges {
   width: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -358,9 +366,14 @@ a {
 }
 
 .Charhold {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
 
@@ -374,16 +387,22 @@ a {
 }
 
 .CharacterHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 43rem;
-  height: 64rem;
+  height: 68rem;
   background-color: #0e0e0e;
   border-radius: 0.75rem;
   margin-left: 3rem;
-  margin-top: 3rem;
-  box-shadow: white 1px 1px 1px 1px;
+  margin-top: 1.3rem;
+  -webkit-box-shadow: white 1px 1px 1px 1px;
+          box-shadow: white 1px 1px 1px 1px;
 }
 
 .CharacterIMG {
@@ -391,7 +410,7 @@ a {
   border-radius: 0.75rem;
   margin-right: auto;
   display: block;
-  height: 24rem;
+  height: 30rem;
   width: 35rem;
   margin-top: 0rem;
 }
@@ -400,7 +419,7 @@ a {
   margin-top: 0.5rem;
   color: white;
   text-align: center;
-  width: 40%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   font-size: 3rem;
@@ -523,20 +542,35 @@ a {
   text-align: center;
 }
 
+.Members {
+  margin-top: -3rem;
+  text-align: center;
+  color: #0077ff;
+  font-size: 6rem;
+  border-bottom: solid white 2px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .banner {
   border-top: 3px white groove;
   border-bottom: 3px white groove;
-  position: absolute;
-  top: 10rem;
   width: 100%;
   height: 35rem;
+  margin-top: 1rem;
 }
 
 .Navbar {
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   font-family: Batman;
@@ -582,9 +616,14 @@ a {
 .footerHolder {
   margin-left: 0rem;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 2rem;
 }
 
@@ -672,4 +711,5 @@ a {
 @font-face {
   font-family: Batman;
   src: url("../Fonts/Batman.ttf");
-}/*# sourceMappingURL=index.css.map */
+}
+/*# sourceMappingURL=index.css.map */
