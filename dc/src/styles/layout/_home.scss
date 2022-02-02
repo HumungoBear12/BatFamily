@@ -1,9 +1,15 @@
 $background-color1: rgba(15, 15, 15, 0.99);
-
+.batTopHome {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.BatBottemHome {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 .batArt {
-  position: absolute;
-  left: 3rem;
-  top: 47rem;
   background-color: $background-color1;
   box-shadow: inset, $dark-shadow $dark-shadow;
   height: 40rem;
@@ -45,29 +51,23 @@ $background-color1: rgba(15, 15, 15, 0.99);
   width: 85%;
 }
 .iframe {
-  position: absolute;
-  right: 3rem;
-  top: 47rem;
   width: 55rem;
   height: 30rem;
   border-radius: 0.75rem;
 }
 .batHead2 {
-  position: absolute;
-  right: 3rem;
-  top: 80rem;
+  position: relative;
+  bottom: 6rem;
   background-color: $background-color1;
   height: 46rem;
   width: 53em;
   border-radius: 0.75rem;
 }
 .batIMG {
+  margin-top: 4rem;
   height: 35rem;
   width: 25rem;
-  position: absolute;
-  top: 90rem;
   border-radius: 0.75rem;
-  left: 5rem;
 }
 .BatAges {
   width: 96%;

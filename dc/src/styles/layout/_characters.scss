@@ -1,4 +1,14 @@
-$clr-Blue: rgb(0, 119, 255);
+$clr-Blue: rgb(0, 83, 179);
+$Clr-One: rgb(1, 0, 85);
+$Clr-two: rgb(0, 174, 255);
+$Clr-three: rgb(133, 0, 0);
+$Clr-four: rgb(251, 255, 0);
+$Clr-five: rgb(153, 0, 255);
+$Clr-six: rgb(255, 0, 0);
+$Clr-seven: rgb(211, 211, 211);
+$Clr-eight: rgb(255, 0, 0);
+$Clr-nine: rgb(83, 0, 0);
+$Clr-ten: rgb(0, 255, 191);
 .Charhold {
   display: flex;
   justify-content: space-evenly;
@@ -17,34 +27,199 @@ $clr-Blue: rgb(0, 119, 255);
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 43rem;
-  height: 68rem;
+  width: 45vw;
+  height: 175vh;
   background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
-  margin-top: 1.3rem;
-  box-shadow: white 1px 1px 1px 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder:hover {
+  box-shadow: rgb(1, 0, 85) 1px 1px 2px 2px;
+}
+.CharacterHolder1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder1:hover {
+  box-shadow: rgb(0, 8, 114) 1px 1px 2px 2px;
+}
+.CharacterHolder2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder2:hover {
+  box-shadow: rgb(0, 174, 255) 1px 1px 2px 2px;
+}
+.CharacterHolder3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder3:hover {
+  box-shadow: rgb(133, 0, 0) 1px 1px 2px 2px;
+}
+.CharacterHolder4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder4:hover {
+  box-shadow: rgb(251, 255, 0) 1px 1px 2px 2px;
+}
+.CharacterHolder5 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder5:hover {
+  box-shadow: rgb(153, 0, 255) 1px 1px 2px 2px;
+}
+.CharacterHolder6 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder6:hover {
+  box-shadow: rgb(255, 0, 0) 1px 1px 2px 2px;
+}
+.CharacterHolder7 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder7:hover {
+  box-shadow: rgb(211, 211, 211) 1px 1px 2px 2px;
+}
+.CharacterHolder8 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder8:hover {
+  box-shadow: rgb(255, 0, 0) 1px 1px 2px 2px;
+}
+.CharacterHolder9 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder9:hover {
+  box-shadow: rgb(83, 0, 0) 1px 1px 2px 2px;
+}
+.CharacterHolder10 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: rgb(14, 14, 14);
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.CharacterHolder10:hover {
+  box-shadow: rgb(0, 255, 191) 1px 1px 2px 2px;
 }
 .CharacterIMG {
   margin-left: auto;
   border-radius: 0.75rem;
   margin-right: auto;
   display: block;
-  height: 30rem;
+  height: 34rem;
   width: 35rem;
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 .CharacterHero {
   margin-top: 0.5rem;
   color: white;
   text-align: center;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-family: Batman;
 }
 .CharacterHero:hover {
-  font-size: 3.4rem;
+  font-size: 2.8rem;
 }
 .CharacterName {
   color: white;
@@ -68,36 +243,160 @@ $clr-Blue: rgb(0, 119, 255);
   text-align: center;
   color: white;
   font-size: 1.6rem;
-  border-bottom: 1px $clr-Blue solid;
 }
 .CharacterMeasurement {
   text-align: left;
   margin-left: 0.6rem;
   color: white;
 }
-.Measurments {
+.Measurments1 {
   width: 17rem;
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px $clr-Blue solid;
+  border: 1px $Clr-One solid;
+}
+.Measurments2 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-two solid;
+}
+.Measurments3 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-three solid;
+}
+.Measurments4 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-four solid;
+}
+.Measurments5 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-five solid;
+}
+.Measurments6 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-six solid;
+}
+.Measurments7 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-seven solid;
+}
+.Measurments8 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-eight solid;
+}
+.Measurments9 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-nine solid;
+}
+.Measurments10 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-ten solid;
 }
 .CharacterVillains {
   text-align: center;
   color: white;
   font-size: 1.6rem;
-  border-bottom: 1px $clr-Blue solid;
 }
 .BatVillains {
   text-align: center;
   color: white;
 }
-.Villains {
+.Villains1 {
   width: 17rem;
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px $clr-Blue solid;
+  border: 1px $Clr-One solid;
+}
+.Villains2 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-two solid;
+}
+.Villains3 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-three solid;
+}
+.Villains4 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-four solid;
+}
+.Villains5 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-five solid;
+}
+.Villains6 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-six solid;
+}
+.Villains7 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-seven solid;
+}
+.Villains8 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-eight solid;
+}
+.Villains9 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-nine solid;
+}
+.Villains10 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px $Clr-ten solid;
 }
 .SkillsHolder {
   border: 1px $clr-Blue solid;
@@ -138,19 +437,23 @@ $clr-Blue: rgb(0, 119, 255);
   width: 12rem;
   border-radius: 0.75rem;
   background-color: hsla(212, 100%, 50%, 0.8);
+  box-shadow: inset $dark-shadow, $dark-shadow;
 }
 .btn-Text {
   color: white;
   font-size: 1.2rem;
   text-align: center;
 }
-.Members{
-  margin-top:-3rem;
+.Members {
+  margin-top: -3rem;
   text-align: center;
-  color: $clr-Blue;
-  font-size:6rem;
-  border-bottom: solid white 2px;
-  width: 60%;
+  color: white;
+  font-size: 5rem;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  background-color: hsla(0, 0%, 0%, 0.9);
+  border-radius: 0.75rem;
+  font-family: Batman;
+  box-shadow: inset $dark-shadow, $dark-shadow;
 }

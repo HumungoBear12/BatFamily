@@ -23,15 +23,13 @@ summary {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img,
@@ -53,7 +51,6 @@ blockquote,
 q {
   quotes: none;
 }
-
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -102,19 +99,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type="radio"] {
+input [type=radio] {
   vertical-align: text-bottom;
 }
 
-input [type="checkbox"] {
+input [type=checkbox] {
   vertical-align: bottom;
 }
 
-.ie7 input [type="checkbox"] {
+.ie7 input [type=checkbox] {
   vertical-align: baseline;
 }
 
-.ie6 input[type="checkbox"] {
+.ie6 input[type=checkbox] {
   vertical-align: text-bottom;
 }
 
@@ -149,15 +146,15 @@ sub {
 
 .clickable,
 label,
-input[type="button"],
-input[type="submit"],
-input[type="file"],
+input[type=button],
+input[type=submit],
+input[type=file],
 button {
   cursor: pointer;
 }
 
 button,
-input[type="button"] {
+input[type=button] {
   width: auto;
   overflow: hidden;
 }
@@ -204,13 +201,21 @@ a {
 /* grey used for paragraphs */
 /* lightest grey - used for outlines */
 /* Other Colors used */
+.batTopHome {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.BatBottemHome {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .batArt {
-  position: absolute;
-  left: 3rem;
-  top: 47rem;
   background-color: rgba(15, 15, 15, 0.99);
-  -webkit-box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
   height: 40rem;
   width: 30rem;
   border-radius: 0.75rem;
@@ -256,18 +261,14 @@ a {
 }
 
 .iframe {
-  position: absolute;
-  right: 3rem;
-  top: 47rem;
   width: 55rem;
   height: 30rem;
   border-radius: 0.75rem;
 }
 
 .batHead2 {
-  position: absolute;
-  right: 3rem;
-  top: 80rem;
+  position: relative;
+  bottom: 6rem;
   background-color: rgba(15, 15, 15, 0.99);
   height: 46rem;
   width: 53em;
@@ -275,22 +276,16 @@ a {
 }
 
 .batIMG {
+  margin-top: 4rem;
   height: 35rem;
   width: 25rem;
-  position: absolute;
-  top: 90rem;
   border-radius: 0.75rem;
-  left: 5rem;
 }
 
 .BatAges {
   width: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -366,14 +361,9 @@ a {
 }
 
 .Charhold {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -383,26 +373,205 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #0077ff solid;
+  border: 1px #0053b3 solid;
 }
 
 .CharacterHolder {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 43rem;
-  height: 68rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
   background-color: #0e0e0e;
   border-radius: 0.75rem;
   margin-left: 3rem;
-  margin-top: 1.3rem;
-  -webkit-box-shadow: white 1px 1px 1px 1px;
-          box-shadow: white 1px 1px 1px 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder:hover {
+  box-shadow: #010055 1px 1px 2px 2px;
+}
+
+.CharacterHolder1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder1:hover {
+  box-shadow: #000872 1px 1px 2px 2px;
+}
+
+.CharacterHolder2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder2:hover {
+  box-shadow: #00aeff 1px 1px 2px 2px;
+}
+
+.CharacterHolder3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder3:hover {
+  box-shadow: #850000 1px 1px 2px 2px;
+}
+
+.CharacterHolder4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder4:hover {
+  box-shadow: #fbff00 1px 1px 2px 2px;
+}
+
+.CharacterHolder5 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder5:hover {
+  box-shadow: #9900ff 1px 1px 2px 2px;
+}
+
+.CharacterHolder6 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder6:hover {
+  box-shadow: red 1px 1px 2px 2px;
+}
+
+.CharacterHolder7 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder7:hover {
+  box-shadow: lightgray 1px 1px 2px 2px;
+}
+
+.CharacterHolder8 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder8:hover {
+  box-shadow: red 1px 1px 2px 2px;
+}
+
+.CharacterHolder9 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder9:hover {
+  box-shadow: #530000 1px 1px 2px 2px;
+}
+
+.CharacterHolder10 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 175vh;
+  background-color: #0e0e0e;
+  border-radius: 0.75rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CharacterHolder10:hover {
+  box-shadow: #00ffbf 1px 1px 2px 2px;
 }
 
 .CharacterIMG {
@@ -410,23 +579,24 @@ a {
   border-radius: 0.75rem;
   margin-right: auto;
   display: block;
-  height: 30rem;
+  height: 34rem;
   width: 35rem;
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 
 .CharacterHero {
   margin-top: 0.5rem;
   color: white;
   text-align: center;
-  width: 50%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-family: Batman;
 }
 
 .CharacterHero:hover {
-  font-size: 3.4rem;
+  font-size: 2.8rem;
 }
 
 .CharacterName {
@@ -437,7 +607,7 @@ a {
 .CharacterOrigin {
   color: white;
   text-align: center;
-  border-top: 2px #0077ff solid;
+  border-top: 2px #0053b3 solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -454,7 +624,6 @@ a {
   text-align: center;
   color: white;
   font-size: 1.6rem;
-  border-bottom: 1px #0077ff solid;
 }
 
 .CharacterMeasurement {
@@ -463,19 +632,90 @@ a {
   color: white;
 }
 
-.Measurments {
+.Measurments1 {
   width: 17rem;
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #0077ff solid;
+  border: 1px #010055 solid;
+}
+
+.Measurments2 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #00aeff solid;
+}
+
+.Measurments3 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #850000 solid;
+}
+
+.Measurments4 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #fbff00 solid;
+}
+
+.Measurments5 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #9900ff solid;
+}
+
+.Measurments6 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px red solid;
+}
+
+.Measurments7 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px lightgray solid;
+}
+
+.Measurments8 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px red solid;
+}
+
+.Measurments9 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #530000 solid;
+}
+
+.Measurments10 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #00ffbf solid;
 }
 
 .CharacterVillains {
   text-align: center;
   color: white;
   font-size: 1.6rem;
-  border-bottom: 1px #0077ff solid;
 }
 
 .BatVillains {
@@ -483,16 +723,88 @@ a {
   color: white;
 }
 
-.Villains {
+.Villains1 {
   width: 17rem;
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #0077ff solid;
+  border: 1px #010055 solid;
+}
+
+.Villains2 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #00aeff solid;
+}
+
+.Villains3 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #850000 solid;
+}
+
+.Villains4 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #fbff00 solid;
+}
+
+.Villains5 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #9900ff solid;
+}
+
+.Villains6 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px red solid;
+}
+
+.Villains7 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px lightgray solid;
+}
+
+.Villains8 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px red solid;
+}
+
+.Villains9 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #530000 solid;
+}
+
+.Villains10 {
+  width: 17rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  border: 1px #00ffbf solid;
 }
 
 .SkillsHolder {
-  border: 1px #0077ff solid;
+  border: 1px #0053b3 solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -508,7 +820,7 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #0077ff solid;
+  border-bottom: 2px #0053b3 solid;
 }
 
 .CharacterSkills {
@@ -534,6 +846,7 @@ a {
   width: 12rem;
   border-radius: 0.75rem;
   background-color: rgba(0, 119, 255, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .btn-Text {
@@ -545,12 +858,15 @@ a {
 .Members {
   margin-top: -3rem;
   text-align: center;
-  color: #0077ff;
-  font-size: 6rem;
-  border-bottom: solid white 2px;
-  width: 60%;
+  color: white;
+  font-size: 5rem;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0.75rem;
+  font-family: Batman;
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .banner {
@@ -563,14 +879,9 @@ a {
 
 .Navbar {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   font-family: Batman;
@@ -616,14 +927,9 @@ a {
 .footerHolder {
   margin-left: 0rem;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
@@ -711,5 +1017,4 @@ a {
 @font-face {
   font-family: Batman;
   src: url("../Fonts/Batman.ttf");
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
