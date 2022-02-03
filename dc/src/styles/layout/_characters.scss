@@ -21,21 +21,177 @@ $Clr-ten: rgb(0, 255, 191);
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px $clr-Blue solid;
+  border: 1px $Clr-One solid;
 }
-.CharacterHolder {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 45vw;
-  height: 175vh;
-  background-color: rgb(14, 14, 14);
+.CharacterOrigin {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-One solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 0.75rem;
-  margin-left: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: inset $dark-shadow, $dark-shadow;
+  border: 1px $Clr-One solid;
 }
+.CharacterOrigin1 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-One solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-two solid;
+}
+.CharacterOrigin2 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-two solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character3 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-three solid;
+}
+.CharacterOrigin3 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-three solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character4 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-four solid;
+}
+.CharacterOrigin4 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-four solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character5 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-five solid;
+}
+.CharacterOrigin5 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-five solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character6 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-six solid;
+}
+.CharacterOrigin6 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-six solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character7 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-seven solid;
+}
+.CharacterOrigin7 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-seven solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character8 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-eight solid;
+}
+.CharacterOrigin8 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-eight solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character9 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-nine solid;
+}
+.CharacterOrigin9 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-nine solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Character10 {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: 1px $Clr-ten solid;
+}
+.CharacterOrigin10 {
+  color: white;
+  text-align: center;
+  border-top: 2px $Clr-ten solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .CharacterHolder:hover {
   box-shadow: rgb(1, 0, 85) 1px 1px 2px 2px;
 }
@@ -225,16 +381,8 @@ $Clr-ten: rgb(0, 255, 191);
   color: white;
   text-align: center;
 }
-.CharacterOrigin {
-  color: white;
-  text-align: center;
-  border-top: 2px $clr-Blue solid;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .Origin {
-  margin-top: 0.5rem;
   text-align: center;
   color: white;
   font-size: 1.8rem;
@@ -415,6 +563,186 @@ $Clr-ten: rgb(0, 255, 191);
   color: white;
   font-size: 1.5rem;
   border-bottom: 2px $clr-Blue solid;
+}
+.SkillsHolder1 {
+  border: 1px $Clr-One solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-One solid;
+}
+.SkillsHolder2 {
+  border: 1px $Clr-two solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-two solid;
+}
+.SkillsHolder3 {
+  border: 1px $Clr-three solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader3 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-three solid;
+}
+.SkillsHolder4 {
+  border: 1px $Clr-four solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader4 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-four solid;
+}
+.SkillsHolder5 {
+  border: 1px $Clr-five solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader5 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-five solid;
+}
+.SkillsHolder6 {
+  border: 1px $Clr-six solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader6 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-six solid;
+}
+.SkillsHolder7 {
+  border: 1px $Clr-seven solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader7 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-seven solid;
+}
+.SkillsHolder8 {
+  border: 1px $Clr-eight solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader8 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-eight solid;
+}
+.SkillsHolder9 {
+  border: 1px $Clr-nine solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader9 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-nine solid;
+}
+.SkillsHolder10 {
+  border: 1px $Clr-ten solid;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SkillsHeader10 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  border-bottom: 2px $Clr-ten solid;
 }
 .CharacterSkills {
   text-align: center;
