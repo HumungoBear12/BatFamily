@@ -305,7 +305,7 @@ const Characters = () => {
               </div>
           </div>
           <div className="CharacterHolder9">
-              <img className="CharacterIMG" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/551b3551-5681-4049-abc1-087f7972b203/dcpc25p-168ce6a2-1445-46db-9422-0bc633de2a6d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1MWIzNTUxLTU2ODEtNDA0OS1hYmMxLTA4N2Y3OTcyYjIwM1wvZGNwYzI1cC0xNjhjZTZhMi0xNDQ1LTQ2ZGItOTQyMi0wYmM2MzNkZTJhNmQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eQ5rnBug6B_a6idipcFIo6JWDqQUt3UmdSY9MjCO9Zs" alt="Bruce Wayne" />
+              <img className="CharacterIMG" src="https://www.dccomics.com/sites/default/files/marquee_Alfred_01_5afb82516d4853.18828985.jpg" alt="Bruce Wayne" />
               <h1 className="CharacterHero">Alfred Pennyworth</h1>
               <div className="Character9">
                 <h3 className="Origin">Origin Story</h3>

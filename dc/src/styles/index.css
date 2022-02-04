@@ -23,15 +23,13 @@ summary {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img,
@@ -53,7 +51,6 @@ blockquote,
 q {
   quotes: none;
 }
-
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -102,19 +99,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type="radio"] {
+input [type=radio] {
   vertical-align: text-bottom;
 }
 
-input [type="checkbox"] {
+input [type=checkbox] {
   vertical-align: bottom;
 }
 
-.ie7 input [type="checkbox"] {
+.ie7 input [type=checkbox] {
   vertical-align: baseline;
 }
 
-.ie6 input[type="checkbox"] {
+.ie6 input[type=checkbox] {
   vertical-align: text-bottom;
 }
 
@@ -149,15 +146,15 @@ sub {
 
 .clickable,
 label,
-input[type="button"],
-input[type="submit"],
-input[type="file"],
+input[type=button],
+input[type=submit],
+input[type=file],
 button {
   cursor: pointer;
 }
 
 button,
-input[type="button"] {
+input[type=button] {
   width: auto;
   overflow: hidden;
 }
@@ -205,31 +202,20 @@ a {
 /* lightest grey - used for outlines */
 /* Other Colors used */
 .batTopHome {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .BatBottemHome {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .batArt {
   background-color: rgba(15, 15, 15, 0.99);
-  -webkit-box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
   height: 40rem;
   width: 30rem;
   border-radius: 0.75rem;
@@ -298,12 +284,8 @@ a {
 
 .BatAges {
   width: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -379,14 +361,9 @@ a {
 }
 
 .Charhold {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -558,13 +535,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #530000 solid;
+  border: 1px #009bd8 solid;
 }
 
 .CharacterOrigin9 {
   color: white;
   text-align: center;
-  border-top: 2px #530000 solid;
+  border-top: 2px #009bd8 solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -589,19 +566,13 @@ a {
 }
 
 .CharacterHolder:hover {
-  -webkit-box-shadow: #010055 1px 1px 2px 2px;
-          box-shadow: #010055 1px 1px 2px 2px;
+  box-shadow: #010055 1px 1px 2px 2px;
 }
 
 .CharacterHolder1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -609,24 +580,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder1:hover {
-  -webkit-box-shadow: #000872 1px 1px 2px 2px;
-          box-shadow: #000872 1px 1px 2px 2px;
+  box-shadow: #000872 1px 1px 2px 2px;
 }
 
 .CharacterHolder2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -634,24 +598,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder2:hover {
-  -webkit-box-shadow: #00aeff 1px 1px 2px 2px;
-          box-shadow: #00aeff 1px 1px 2px 2px;
+  box-shadow: #00aeff 1px 1px 2px 2px;
 }
 
 .CharacterHolder3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -659,24 +616,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder3:hover {
-  -webkit-box-shadow: #850000 1px 1px 2px 2px;
-          box-shadow: #850000 1px 1px 2px 2px;
+  box-shadow: #850000 1px 1px 2px 2px;
 }
 
 .CharacterHolder4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -684,24 +634,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder4:hover {
-  -webkit-box-shadow: #fbff00 1px 1px 2px 2px;
-          box-shadow: #fbff00 1px 1px 2px 2px;
+  box-shadow: #fbff00 1px 1px 2px 2px;
 }
 
 .CharacterHolder5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -709,24 +652,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder5:hover {
-  -webkit-box-shadow: #9900ff 1px 1px 2px 2px;
-          box-shadow: #9900ff 1px 1px 2px 2px;
+  box-shadow: #9900ff 1px 1px 2px 2px;
 }
 
 .CharacterHolder6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -734,24 +670,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder6:hover {
-  -webkit-box-shadow: red 1px 1px 2px 2px;
-          box-shadow: red 1px 1px 2px 2px;
+  box-shadow: red 1px 1px 2px 2px;
 }
 
 .CharacterHolder7 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -759,24 +688,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder7:hover {
-  -webkit-box-shadow: lightgray 1px 1px 2px 2px;
-          box-shadow: lightgray 1px 1px 2px 2px;
+  box-shadow: lightgray 1px 1px 2px 2px;
 }
 
 .CharacterHolder8 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -784,24 +706,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder8:hover {
-  -webkit-box-shadow: red 1px 1px 2px 2px;
-          box-shadow: red 1px 1px 2px 2px;
+  box-shadow: red 1px 1px 2px 2px;
 }
 
 .CharacterHolder9 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -809,24 +724,17 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder9:hover {
-  -webkit-box-shadow: #530000 1px 1px 2px 2px;
-          box-shadow: #530000 1px 1px 2px 2px;
+  box-shadow: #009bd8 1px 1px 2px 2px;
 }
 
 .CharacterHolder10 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
   background-color: #0e0e0e;
@@ -834,13 +742,11 @@ a {
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder10:hover {
-  -webkit-box-shadow: #00ffbf 1px 1px 2px 2px;
-          box-shadow: #00ffbf 1px 1px 2px 2px;
+  box-shadow: #00ffbf 1px 1px 2px 2px;
 }
 
 .CharacterIMG {
@@ -960,7 +866,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #530000 solid;
+  border: 1px #009bd8 solid;
 }
 
 .Measurments10 {
@@ -1051,7 +957,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #530000 solid;
+  border: 1px #009bd8 solid;
 }
 
 .Villains10 {
@@ -1243,7 +1149,7 @@ a {
 }
 
 .SkillsHolder9 {
-  border: 1px #530000 solid;
+  border: 1px #009bd8 solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1259,7 +1165,7 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #530000 solid;
+  border-bottom: 2px #009bd8 solid;
 }
 
 .SkillsHolder10 {
@@ -1304,9 +1210,12 @@ a {
   height: 3rem;
   width: 12rem;
   border-radius: 0.75rem;
-  background-color: rgba(0, 119, 255, 0.8);
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.Btn-link:hover {
+  box-shadow: white 1px 1px 2px;
 }
 
 .btn-Text {
@@ -1326,8 +1235,7 @@ a {
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 0.75rem;
   font-family: Batman;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .banner {
@@ -1340,14 +1248,9 @@ a {
 
 .Navbar {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   font-family: Batman;
@@ -1393,14 +1296,9 @@ a {
 .footerHolder {
   margin-left: 0rem;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
@@ -1485,8 +1383,14 @@ a {
   color: yellow;
 }
 
+#SLide-images {
+  width: 80%;
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @font-face {
   font-family: Batman;
   src: url("../Fonts/Batman.ttf");
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

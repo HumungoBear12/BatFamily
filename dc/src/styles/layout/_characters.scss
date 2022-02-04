@@ -7,7 +7,7 @@ $Clr-five: rgb(153, 0, 255);
 $Clr-six: rgb(255, 0, 0);
 $Clr-seven: rgb(211, 211, 211);
 $Clr-eight: rgb(255, 0, 0);
-$Clr-nine: rgb(83, 0, 0);
+$Clr-nine: rgb(0, 155, 216);
 $Clr-ten: rgb(0, 255, 191);
 .Charhold {
   display: flex;
@@ -337,7 +337,7 @@ $Clr-ten: rgb(0, 255, 191);
   box-shadow: inset $dark-shadow, $dark-shadow;
 }
 .CharacterHolder9:hover {
-  box-shadow: rgb(83, 0, 0) 1px 1px 2px 2px;
+  box-shadow: $Clr-nine 1px 1px 2px 2px;
 }
 .CharacterHolder10 {
   display: flex;
@@ -764,8 +764,11 @@ $Clr-ten: rgb(0, 255, 191);
   height: 3rem;
   width: 12rem;
   border-radius: 0.75rem;
-  background-color: hsla(212, 100%, 50%, 0.8);
+  background-color: hsla(0, 0%, 0%, 0.8);
   box-shadow: inset $dark-shadow, $dark-shadow;
+}
+.Btn-link:hover {
+  box-shadow: white 1px 1px 2px;
 }
 .btn-Text {
   color: white;
