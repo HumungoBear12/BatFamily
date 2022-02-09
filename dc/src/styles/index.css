@@ -1238,6 +1238,13 @@ a {
   box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
+.Movie-Title {
+  margin-top: -3rem;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .banner {
   border-top: 3px white groove;
   border-bottom: 3px white groove;
