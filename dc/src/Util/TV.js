@@ -90,9 +90,9 @@ const TV = [
    ,
    {
     id:14,
-    Name:"Batman The Brave and The Bold",
+    Name:"Batman: The Brave and The Bold",
     Year:"2008-2011",
-    Image:"https://static.wikia.nocookie.net/batman/images/f/fe/Bravebolddvd.png/revision/latest/top-crop/width/360/height/450?cb=20200517213040",
+    Image:"https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/24754/NOV080192_1._SX1600_QL80_TTD_.jpg",
    }
    
    ,

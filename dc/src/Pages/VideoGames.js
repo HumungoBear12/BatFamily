@@ -2,8 +2,8 @@ import { React, useState} from 'react'
 import data from '../Util/Games'
 
 const VideoGames = () => {
-   const [people, setPeople] = useState(0)
-    const {rating,name,job,image,text} = data[people]
+   const [games, setGames] = useState(0)
+    const {Name,Image,Description,Year,Creators} = data[games]
     const checkNumber = (number) => {
         if(number  > 3){
             return 0;
@@ -14,26 +14,26 @@ const VideoGames = () => {
         return number
     }
     const next = () =>{
-        setPeople((people)=>{
-            let newPeople = people + 1;
-            return checkNumber(newPeople)
+        setGames((game)=>{
+            let newGame = game + 1;
+            return checkNumber(newGame)
         })
     }
    const back = () =>{
-        setPeople((people)=>{
-            let newPeople = people - 1;
-            return checkNumber(newPeople)
+        setGames((game)=>{
+            let newGame = game - 1;
+            return checkNumber(newGame)
         })
     }
   return (
   <div>
-      <h1>Our Reviews</h1>
+      <h1>Games</h1>
       <article className="main">
-        <img src={image} alt={name}/>
-        <h3>{name}</h3>
-        <p>{rating} stars</p>
-        <p>{job}</p>
-        <p>{text}</p>
+        <img src={Image} alt={Name}/>
+        <h3>{Name}</h3>
+        <p>{Year}</p>
+        <p>{Creators}</p>
+        <p>{Description}</p>
         <button onClick={next}>Next</button>
         <button onClick={back}>Previous</button>
     </article>

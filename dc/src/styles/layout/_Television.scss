@@ -1,0 +1,43 @@
+.TV-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+}
+.TV-Holder {
+  border-radius: 0.75rem;
+  width: 20rem;
+  height: 25rem;
+  margin-bottom: 2rem;
+}
+.TV-Holder:hover {
+  box-shadow: 1px 1px 3px 3px white;
+}
+.TV-image {
+  margin-top: 2rem;
+  height: 15rem;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.75rem;
+  border: white 1px solid;
+  display: block;
+}
+.TV-title {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  text-align: center;
+  color: white;
+  border-bottom: white 1px solid;
+  font-size: 1.6rem;
+}
+.TV-Year {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1.4rem;
+}
