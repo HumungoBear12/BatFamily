@@ -1249,8 +1249,9 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
+  margin-top: 1rem;
 }
 
 .TV-Holder {
@@ -1258,6 +1259,8 @@ a {
   width: 20rem;
   height: 25rem;
   margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px white solid;
 }
 
 .TV-image {
@@ -1292,8 +1295,12 @@ a {
 .Television-Bat-Header {
   text-align: center;
   color: white;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: Batman;
+  border-bottom: 1px solid white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .TV-description {
