@@ -1257,14 +1257,14 @@ a {
 .TV-Holder {
   border-radius: 0.75rem;
   width: 20rem;
-  height: 25rem;
+  height: 30rem;
   margin-bottom: 2rem;
   background-color: rgba(0, 0, 0, 0.8);
   border: 1px white solid;
 }
 
 .TV-image {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   height: 15rem;
   width: 15rem;
   margin-left: auto;
@@ -1282,7 +1282,7 @@ a {
   text-align: center;
   color: white;
   border-bottom: white 1px solid;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .TV-Year {
