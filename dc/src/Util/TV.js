@@ -72,24 +72,29 @@ const TV = [
     Name:"Justice League",
     Year:"2001-2004",
     Image:"https://m.media-amazon.com/images/M/MV5BMDE2ODk0ZTctMGI4Ni00ODgwLTk4OTAtOGNiNjZkMzI3NTY0XkEyXkFqcGdeQXVyOTgwMzk1MTA@._V1_.jpg",
-   }
-   ,
+   },
    {
-    id:12,
+      id:12,
+      Name:"Teen Titans",
+      Year:"2003-2006",
+      Image:"https://m.media-amazon.com/images/M/MV5BN2E5ZjM1MzItYzFjZC00YzYyLWFmZjgtZTVhZGMzMWUwNDcyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+   },
+   {
+    id:13,
     Name:"Justice League Unlimited",
     Year:"2004-2006",
     Image:"https://m.media-amazon.com/images/M/MV5BMTI3MjI1NTAtYjI2ZS00OTVlLTk0OTQtNTc5M2U3NmNmYjMzXkEyXkFqcGdeQXVyOTgwMzk1MTA@._V1_.jpg",
    }
    ,
    {
-    id:13,
+    id:14,
     Name:"The Batman",
     Year:"2004-2008",
     Image:"https://m.media-amazon.com/images/M/MV5BYzRjOWY2YWUtOTM4Yy00ODE3LThlNzAtN2YxMWUzOGQ1MTMxXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg",
    }
    ,
    {
-    id:14,
+    id:15,
     Name:"Batman: The Brave and The Bold",
     Year:"2008-2011",
     Image:"https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/24754/NOV080192_1._SX1600_QL80_TTD_.jpg",
@@ -97,32 +102,32 @@ const TV = [
    
    ,
    {
-    id:15,
+    id:16,
     Name:"Young Justice",
     Year:"2010-Present",
     Image:"https://m.media-amazon.com/images/M/MV5BMTAwYzE4NzItY2Q3Zi00NjRmLWE5ZTAtMDM5OWIyMmQ3MTFlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
    },
    {
-    id:15,
+    id:17,
     Name:"Gotham",
     Year:"2014-2019",
     Image:"https://static.tvtropes.org/pmwiki/pub/images/gotham_7.jpg",
    }
    ,
    {
-    id:16,
+    id:18,
     Name:"Nightwing: The Series",
     Year:"2014",
     Image:"https://m.media-amazon.com/images/M/MV5BMjI0MzQwNzk4Nl5BMl5BanBnXkFtZTgwMDY2ODE5NDE@._V1_.jpg",
    },
    {
-    id:17,
-    Name:"Justice League Action",
-    Year:"2016-2018",
-    Image:"https://m.media-amazon.com/images/M/MV5BNzdhYTUzMWYtODlhZi00ZDA1LWE4NzEtMDJjMzQwMzNmZjdhXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_.jpg",
+    id:19,
+    Name:"Titans",
+    Year:"2018-Present",
+    Image:"https://m.media-amazon.com/images/M/MV5BMjA2ZTIxYjktMWUwMi00MDU5LTlmMDYtMTI4ODc1MDY4YzNjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
    },
    {
-    id:18,
+    id:20,
     Name:"Batwoman",
     Year:"2019-Present",
     Image:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/batwoman-javicia-leslie-1610440369.jpg?crop=0.728xw:0.582xh;0.138xw,0.0832xh&resize=480:*",

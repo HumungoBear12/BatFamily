@@ -18,18 +18,17 @@ const App = () => {
                <Router>
                     <div>
                         <NavBar />
-                        <Banner/>
-                        <p style={{height: '10vh'}} />
-                        <Routes>
-                            <Route index element={<Home />} />
-                            <Route path='Characters' element={(<Character/>)} />
-                            <Route path='Television' element={(<Television/>)} />
-                            <Route path='Movies' element={(<Movies/>)} />
-                            <Route path='VideoGames' element={(<VideoGames/>)} />
-                        </Routes>
-                    </div>
-                    
-                <Footer/>
+                            <Banner/>
+                            <p style={{height: '10vh'}} />
+                            <Routes>
+                                <Route index element={<Home />} />
+                                <Route path='Characters' element={(<Character/>)} />
+                                <Route path='Television' element={(<Television/>)} />
+                                <Route path='Movies' element={(<Movies/>)} />
+                                <Route path='VideoGames' element={(<VideoGames/>)} />
+                            </Routes>
+                        </div>
+                    <Footer/>
                 </Router>
            </div>
     )
