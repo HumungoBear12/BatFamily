@@ -34,7 +34,7 @@ const Footer = () => {
                 <li className='FootLinks'><Link to="/Characters"><p className="FooterLinksActive">Characters</p></Link></li>
                 <li className='FootLinks'><Link to="/Television"><p className="FooterLinksActive">Television</p></Link></li>
                 <li className='FootLinks'><Link to="/Movies"><p className="FooterLinksActive">Movies</p></Link></li>
-                <li className='FootLinks'><Link to="/Video-Games"><p className="FooterLinksActive">Video-Games</p></Link></li>
+                <li className='FootLinks'><Link to="/VideoGames"><p className="FooterLinksActive">Video-Games</p></Link></li>
             </ul>
             </div>
             </div>
