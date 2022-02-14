@@ -36,8 +36,8 @@ const VideoGames = () => {
         <h3 className="Game-NAME">{Name}</h3>
         <p className="Game-CREATORS">{Creators}: {Year}</p>   
         <p className="Game-DESCRIPTION">{Description}</p>
-        <button className="Game-NEXT" onClick={next}>{HiArrowCircleRight}</button>
-        <button className="Game-PREV" onClick={back}>{HiArrowCircleLeft}</button>
+        <button className="Game-NEXT" onClick={next}>Right</button>
+        <button className="Game-PREV" onClick={back}>Left</button>
         <p className="Game-SERIES">{Series}</p>
     </article>
   </div>
