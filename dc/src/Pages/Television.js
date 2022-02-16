@@ -17,7 +17,7 @@ const Television = () => {
               <img className="TV-image" src={Image} alt={Name}></img>
               <h1 className="TV-title">{Name}</h1>
               {/* <p className="TV-description">Description:</p> */}
-              <p className="TV-Year">Years: {Year}</p>
+              {/* <p className="TV-Year">Years: {Year}</p> */}
             </div>
           </div>
         )

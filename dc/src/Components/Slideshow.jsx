@@ -10,15 +10,15 @@ const Slideshow = ({Header,ImageOne,ImageTwo,ImageThree,ImageFour,ImageFive,Imag
                 <h1>{Header}</h1>
                 <div class="entire-content">
                     <div class="content-carrousel">
-                        <figure class="shadow"><img src={ImageOne}/></figure>
-                        <figure class="shadow"><img src={ImageTwo}/></figure>
-                        <figure class="shadow"><img src={ImageThree}/></figure>
-                        <figure class="shadow"><img src={ImageFour}/></figure>
-                        <figure class="shadow"><img src={ImageFive}/></figure>
-                        <figure class="shadow"><img src={ImageSix}/></figure>
-                        <figure class="shadow"><img src={ImageSeven}/></figure>
-                        <figure class="shadow"><img src={ImageEight}/></figure>
-                        <figure class="shadow"><img src={ImageNine}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageOne}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageTwo}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageThree}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageFour}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageFive}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageSix}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageSeven}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageEight}/></figure>
+                        <figure class="shadow"><img class="IMAGE_MOVIE" src={ImageNine}/></figure>
                     </div>
                 </div>
             </section>

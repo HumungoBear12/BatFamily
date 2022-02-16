@@ -1,8 +1,9 @@
-import React from 'react'
+import {React, useState} from 'react'
+import data from '../Util/LegoBatman'
 
 const LegoBatman = () => {
     const [games, setGames] = useState(0)
-    const {Name,Image,Description,Year,Creators} = data[games]
+    const {Name,Image,releaseDate,story,Creators} = data[games]
     const checkNumber = (number) => {
         if(number  > 3){
             return 0;
@@ -30,8 +31,8 @@ const LegoBatman = () => {
             <article >
                 <img className="Game-IMG" src={Image} alt={Name}/>
                 <h3 className="Game-NAME">{Name}</h3>
-                <p className="Game-CREATORS">{Creators}: {Year}</p>   
-                <p className="Game-DESCRIPTION">Story: {Description}</p>
+                <p className="Game-CREATORS">{Creators}: {releaseDate}</p>   
+                <p className="Game-DESCRIPTION">Story: {story}</p>
                 <button className="Game-NEXT" onClick={next}>Right</button>
                 <button className="Game-PREV" onClick={back}>Left</button>
             </article>
