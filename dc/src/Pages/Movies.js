@@ -1,157 +1,32 @@
 import React from 'react';
-import gsap from 'gsap'
-
+import Slideshow from '../Components/Slideshow'
 const Movies = () => {
-  gsap.registerPlugin(ScrollTrigger);
-
-let iteration = 0; // gets iterated when we scroll all the way to the end or start and wraps around - allows us to smoothly continue the playhead scrubbing in the correct direction.
-
-const spacing = 0.1,    // spacing of the cards (stagger)
-	snap = gsap.utils.snap(spacing), // we'll use this to snap the playhead on the seamlessLoop
-	cards = gsap.utils.toArray('.cards li'),
-	seamlessLoop = buildSeamlessLoop(cards, spacing),
-	scrub = gsap.to(seamlessLoop, { // we reuse this tween to smoothly scrub the playhead on the seamlessLoop
-		totalTime: 0,
-		duration: 0.5,
-		ease: "power3",
-		paused: true
-	}),
-	trigger = ScrollTrigger.create({
-		start: 0,
-		onUpdate(self) {
-			if (self.progress === 1 && self.direction > 0 && !self.wrapping) {
-				wrapForward(self);
-			} else if (self.progress < 1e-5 && self.direction < 0 && !self.wrapping) {
-				wrapBackward(self);
-			} else {
-        scrub.vars.totalTime = snap((iteration + self.progress) * seamlessLoop.duration());
-				scrub.invalidate().restart(); // to improve performance, we just invalidate and restart the same tween. No need for overwrites or creating a new tween on each update.
-				self.wrapping = false;
-			}
-		},
-		end: "+=3000",
-		pin: ".gallery"
-	});
-
-function wrapForward(trigger) { // when the ScrollTrigger reaches the end, loop back to the beginning seamlessly
-	iteration++;
-	trigger.wrapping = true;
-	trigger.scroll(trigger.start + 1);
-}
-
-function wrapBackward(trigger) { // when the ScrollTrigger reaches the start again (in reverse), loop back to the end seamlessly
-	iteration--;
-	if (iteration < 0) { // to keep the playhead from stopping at the beginning, we jump ahead 10 iterations
-		iteration = 9;
-		seamlessLoop.totalTime(seamlessLoop.totalTime() + seamlessLoop.duration() * 10);
-    scrub.pause(); // otherwise it may update the totalTime right before the trigger updates, making the starting value different than what we just set above. 
-	}
-	trigger.wrapping = true;
-	trigger.scroll(trigger.end - 1);
-}
-
-function scrubTo(totalTime) { // moves the scroll position to the place that corresponds to the totalTime value of the seamlessLoop, and wraps if necessary.
-	let progress = (totalTime - seamlessLoop.duration() * iteration) / seamlessLoop.duration();
-	if (progress > 1) {
-		wrapForward(trigger);
-	} else if (progress < 0) {
-		wrapBackward(trigger);
-	} else {
-		trigger.scroll(trigger.start + progress * (trigger.end - trigger.start));
-	}
-}
-
-document.querySelector(".next").addEventListener("click", () => scrubTo(scrub.vars.totalTime + spacing));
-document.querySelector(".prev").addEventListener("click", () => scrubTo(scrub.vars.totalTime - spacing));
-
-
-
-
-function buildSeamlessLoop(items, spacing) {
-	let overlap = Math.ceil(1 / spacing), // number of EXTRA animations on either side of the start/end to accommodate the seamless looping
-		startTime = items.length * spacing + 0.5, // the time on the rawSequence at which we'll start the seamless loop
-		loopTime = (items.length + overlap) * spacing + 1, // the spot at the end where we loop back to the startTime 
-		rawSequence = gsap.timeline({paused: true}), // this is where all the "real" animations live
-		seamlessLoop = gsap.timeline({ // this merely scrubs the playhead of the rawSequence so that it appears to seamlessly loop
-			paused: true,
-			repeat: -1, // to accommodate infinite scrolling/looping
-			onRepeat() { // works around a super rare edge case bug that's fixed GSAP 3.6.1
-				this._time === this._dur && (this._tTime += this._dur - 0.01);
-			}
-		}),
-		l = items.length + overlap * 2,
-		time = 0,
-		i, index, item;
-
-	// set initial state of items
-	gsap.set(items, {xPercent: 400, opacity: 0,	scale: 0});
-
-	// now loop through and create all the animations in a staggered fashion. Remember, we must create EXTRA animations at the end to accommodate the seamless looping.
-	for (i = 0; i < l; i++) {
-		index = i % items.length;
-		item = items[index];
-		time = i * spacing;
-		rawSequence.fromTo(item, {scale: 0, opacity: 0}, {scale: 1, opacity: 1, zIndex: 100, duration: 0.5, yoyo: true, repeat: 1, ease: "power1.in", immediateRender: false}, time)
-		           .fromTo(item, {xPercent: 400}, {xPercent: -400, duration: 1, ease: "none", immediateRender: false}, time);
-		i <= items.length && seamlessLoop.add("label" + i, time); // we don't really need these, but if you wanted to jump to key spots using labels, here ya go.
-	}
-	
-	// here's where we set up the scrubbing of the playhead to make it appear seamless. 
-	rawSequence.time(startTime);
-	seamlessLoop.to(rawSequence, {
-		time: loopTime,
-		duration: loopTime - startTime,
-		ease: "none"
-	}).fromTo(rawSequence, {time: overlap * spacing + 1}, {
-		time: startTime,
-		duration: startTime - (overlap * spacing + 1),
-		immediateRender: false,
-		ease: "none"
-	});
-	return seamlessLoop;
-}
-
   return (
     <div>
-      <div class="gallery">
-        <ul class="cards">
-          <li>0</li>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li>8</li>
-          <li>9</li>
-          <li>10</li>
-          <li>11</li>
-          <li>12</li>
-          <li>13</li>
-          <li>14</li>
-          <li>15</li>
-          <li>16</li>
-          <li>17</li>
-          <li>18</li>
-          <li>19</li>
-          <li>20</li>
-          <li>21</li>
-          <li>22</li>
-          <li>23</li>
-          <li>24</li>
-          <li>25</li>
-          <li>26</li>
-          <li>27</li>
-          <li>28</li>
-          <li>29</li>
-          <li>30</li>
-        </ul>
-        <div class="actions">
-          <button class="prev">Prev</button>
-          <button class="next">Next</button>
-        </div>
-      </div>
+		<div className="Movie-DIV-HOLDER">
+			<h1 className="Live-Movie-HEAD">Live Action BatFamily Movies</h1>
+			<Slideshow ImageOne="https://flxt.tmsimg.com/assets/p838_p_v10_ay.jpg" ImageTwo="https://upload.wikimedia.org/wikipedia/en/5/5a/Batman_%281989%29_theatrical_poster.jpg" ImageThree="https://m.media-amazon.com/images/M/MV5BOGZmYzVkMmItM2NiOS00MDI3LWI4ZWQtMTg0YWZkODRkMmViXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_.jpg" ImageFour="https://m.media-amazon.com/images/M/MV5BNDdjYmFiYWEtYzBhZS00YTZkLWFlODgtY2I5MDE0NzZmMDljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" ImageFive="https://m.media-amazon.com/images/M/MV5BMGQ5YTM1NmMtYmIxYy00N2VmLWJhZTYtN2EwYTY3MWFhOTczXkEyXkFqcGdeQXVyNTA2NTI0MTY@._V1_.jpg" ImageSix="https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg" ImageSeven="https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg" ImageEight="https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg" ImageNine="https://m.media-amazon.com/images/M/MV5BYThjYzcyYzItNTVjNy00NDk0LTgwMWQtYjMwNmNlNWJhMzMyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"/>
+		</div>
+		<div className="Movie-DIV-HOLDER">
+			<h1 className="Live-Movie-HEAD">DCAU BatFamily Movies</h1>
+			<Slideshow ImageOne="https://upload.wikimedia.org/wikipedia/en/e/ea/Batman_mask_of_the_phantasm_poster.jpg" ImageTwo="https://m.media-amazon.com/images/M/MV5BOTQ0NmUzMzAtODk5My00MzYwLThlYWEtY2NkOGNhODg5ZmY1XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_FMjpg_UX1000_.jpg" ImageThree="https://upload.wikimedia.org/wikipedia/en/f/fd/Batman_Beyond_-_Return_of_the_Joker_poster.jpg" ImageFour="https://m.media-amazon.com/images/M/MV5BN2IwYTVlZGQtOTRhNy00MDI5LThmMTUtYWI1MGUwMGFkYzI1XkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_.jpg" ImageFive="https://m.media-amazon.com/images/M/MV5BMTkyMTMwNjA3MV5BMl5BanBnXkFtZTcwNzE2NTI2OQ@@._V1_.jpg" ImageSix="https://upload.wikimedia.org/wikipedia/en/f/f0/Batman_Gotham_Knight.jpg" ImageSeven="https://m.media-amazon.com/images/M/MV5BNmY4ZDZjY2UtOWFiYy00MjhjLThmMjctOTQ2NjYxZGRjYmNlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageEight="https://m.media-amazon.com/images/M/MV5BNTJjMmVkZjctNjNjMS00ZmI2LTlmYWEtOWNiYmQxYjY0YWVhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageNine="https://m.media-amazon.com/images/M/MV5BMzIxMDkxNDM2M15BMl5BanBnXkFtZTcwMDA5ODY1OQ@@._V1_FMjpg_UX1000_.jpg"/>
+		</div>
+		<div className="Movie-DIV-HOLDER">
+			<h1 className="Live-Movie-HEAD">DCAU BatFamily Movies</h1>
+			<Slideshow ImageOne="https://m.media-amazon.com/images/M/MV5BYTEzMmE0ZDYtYWNmYi00ZWM4LWJjOTUtYTE0ZmQyYWM3ZjA0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" ImageTwo="https://m.media-amazon.com/images/M/MV5BYjdkZWFhNzctYmNhNy00NGM5LTg0Y2YtZWM4NmU2MWQ3ODVkXkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_.jpg" ImageThree="https://m.media-amazon.com/images/M/MV5BZDU1ZGRiY2YtYmZjMi00ZDQwLWJjMWMtNzUwNDMwYjQ4ZTVhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageFour="https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Bat_vs_robin_cover.jpg/220px-Bat_vs_robin_cover.jpg" ImageFive="https://m.media-amazon.com/images/M/MV5BZWZiZmZhYmQtYjVkZi00MWIzLWEzM2MtYzhkNjliNzc2MTMwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageSix="https://m.media-amazon.com/images/M/MV5BMTdjZTliODYtNWExMi00NjQ1LWIzN2MtN2Q5NTg5NTk3NzliL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg" ImageSeven="https://m.media-amazon.com/images/M/MV5BNTQzM2JkYTAtY2ExNi00N2ZhLWE5NDctMDQyMWU5ZjcwZDEwXkEyXkFqcGdeQXVyMjM5NDQzNTk@._V1_.jpg" ImageEight="https://m.media-amazon.com/images/M/MV5BYTJhNjYyMGItODdhOC00ZTZmLTk1MTMtZDRhMmZkYTRiOGJkXkEyXkFqcGdeQXVyMTg2NjYzOA@@._V1_.jpg" ImageNine="https://m.media-amazon.com/images/M/MV5BYWY5ODhlMWQtNDRiMC00MDk0LTgyMDItYmRmYWFkMjdmYWFmXkEyXkFqcGdeQXVyNTA4NzExMDg@._V1_.jpg"/>
+		</div>
+		<div className="Movie-DIV-HOLDER">
+			<h1 className="Live-Movie-HEAD">DCAU BatFamily Movies</h1>
+			<Slideshow ImageOne="https://m.media-amazon.com/images/M/MV5BOWExMjU1OTctNGIwZS00MjY2LWE2YWUtZWVlOTRjZDFhODVjXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg" ImageTwo="https://m.media-amazon.com/images/M/MV5BYTZkZTM0NjYtN2Q2OS00YThjLWFkYTAtZDAwOWM3NjY1YjlhXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg" ImageThree="https://m.media-amazon.com/images/M/MV5BMjJlMmI5YzAtNzY4YS00YzMzLTk0ZDAtMjUwMWU0OTdhYTkzXkEyXkFqcGdeQXVyMDEyMDU1Mw@@._V1_.jpg" ImageFour="https://m.media-amazon.com/images/M/MV5BZDc5NTFiMzgtZWJiOS00N2M1LWJmOGYtZmNjMzFhMzcxZjRiXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageFive="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/TTG_Movie_Poster_5.jpg/220px-TTG_Movie_Poster_5.jpg" ImageSix="https://cdn.flickeringmyth.com/wp-content/uploads/2020/12/Batman-Soul-of-the-Dragon.jpg" ImageSeven="https://m.media-amazon.com/images/M/MV5BZWNhNzk2YjItOWZiZC00ZGM0LTg2NjUtYzgwYWQzNjk0NjlmXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg" ImageEight="https://m.media-amazon.com/images/M/MV5BYzk0MTI0YmUtMDgwOC00M2U5LTgzMDktM2RhN2M3ZDVmOWFiXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg" ImageNine="https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_.jpg"/>
+		</div>
+		<div className="Movie-DIV-HOLDER">
+			<h1 className="Live-Movie-HEAD">DCAU Justice League Movies</h1>
+			<Slideshow ImageOne="https://upload.wikimedia.org/wikipedia/en/d/d4/Jla_doom_2012.jpg" ImageTwo="https://upload.wikimedia.org/wikipedia/en/f/f4/Justice_League-War.jpg" ImageThree="https://m.media-amazon.com/images/M/MV5BNzljNmZiNTktMTU4Ni00MTE2LWFmOTctYzY1NWJlY2ZiZjA3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageFour="https://m.media-amazon.com/images/M/MV5BMTk5ODdkYzQtMDFjYS00YjgwLWI2N2EtZmU1MWRmMzFiNzdjXkEyXkFqcGdeQXVyNDQ0MTYzMDA@._V1_.jpg" ImageFive="https://upload.wikimedia.org/wikipedia/en/d/d5/Justice_League_-_The_Flashpoint_Paradox.jpg" ImageSix="" ImageSeven="https://m.media-amazon.com/images/M/MV5BMmNkMGU4YzEtZTdhZS00YzBhLTgzYzAtZWM2NTQ0ZGU2ZjM3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageEight="https://m.media-amazon.com/images/M/MV5BZDNjMjE5YmUtOTUwOC00MjAyLWJmMzktZjlkMjQyYzNiNmU3XkEyXkFqcGdeQXVyNTA4NzExMDg@._V1_.jpg" ImageNine="https://upload.wikimedia.org/wikipedia/en/8/81/JLA_Adventures-Trapped_in_Time.jpg"/>
+		</div>
+		<div className="Movie-DIV-HOLDER">
+			<h1 className="Live-Movie-HEAD">Justice League Movies</h1>
+			<Slideshow ImageOne="https://m.media-amazon.com/images/M/MV5BYzA3ZmI1NzMtMTcxMi00ODg4LWFhMGItMTE2ZjIxODUzZTFiXkEyXkFqcGdeQXVyMTA1NzAwODMz._V1_.jpg" ImageTwo="https://m.media-amazon.com/images/M/MV5BMzg0ODZjNjUtNmVhZi00NTYxLWExNWMtMWI3MDFiMjhiNjc2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" ImageThree="https://upload.wikimedia.org/wikipedia/en/9/9e/Justice_League_-_Throne_of_Atlantis.jpg" ImageFour="" ImageFive="https://m.media-amazon.com/images/M/MV5BMDFiYTBkOGQtZjAwNi00OGMwLTg0YzQtNjI5YmFlZjY3ZWM3XkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_.jpg" ImageSix="https://upload.wikimedia.org/wikipedia/en/4/4f/Teen_Titans_The_Judas_Contract.jpg" ImageSeven="https://m.media-amazon.com/images/M/MV5BMjQ4Njk5ODMtNjZhMC00OTRjLTg3NzktYjViNmE1ZWE5MzhlXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_.jpg" ImageEight="https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" ImageNine="https://images-na.ssl-images-amazon.com/images/I/81KX513BQxL.jpg"/>
+		</div>
     </div>
   );
 };
