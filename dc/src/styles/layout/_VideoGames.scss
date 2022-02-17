@@ -24,15 +24,15 @@
 .Game-NAME {
   margin-top: 1.5rem;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   border-bottom: 3px white solid;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   color: white;
 }
 .Game-NAME:hover {
-  font-size: 3rem;
+  font-size: 2.5em;
 }
 .Game-CREATORS {
   text-align: center;
@@ -71,4 +71,20 @@
   text-align: center;
   color: white;
   font-size: 4rem;
+}
+.Game-NEXT-Lego {
+  position: absolute;
+  left: 64rem;
+  top:125rem;
+  height: 2rem;
+  width: 3rem;
+  border-radius: 0.75rem;
+}
+.Game-PREV-Lego {
+  position: absolute;
+  left: 28rem;
+  top: 125rem;
+  height: 2rem;
+  width: 3rem;
+  border-radius: 0.75rem;
 }
