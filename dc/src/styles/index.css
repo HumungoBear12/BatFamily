@@ -23,15 +23,13 @@ summary {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img,
@@ -53,7 +51,6 @@ blockquote,
 q {
   quotes: none;
 }
-
 blockquote::before, blockquote::after,
 q::before,
 q::after {
@@ -102,19 +99,19 @@ pre {
   word-wrap: break-word;
 }
 
-input [type="radio"] {
+input [type=radio] {
   vertical-align: text-bottom;
 }
 
-input [type="checkbox"] {
+input [type=checkbox] {
   vertical-align: bottom;
 }
 
-.ie7 input [type="checkbox"] {
+.ie7 input [type=checkbox] {
   vertical-align: baseline;
 }
 
-.ie6 input[type="checkbox"] {
+.ie6 input[type=checkbox] {
   vertical-align: text-bottom;
 }
 
@@ -149,15 +146,15 @@ sub {
 
 .clickable,
 label,
-input[type="button"],
-input[type="submit"],
-input[type="file"],
+input[type=button],
+input[type=submit],
+input[type=file],
 button {
   cursor: pointer;
 }
 
 button,
-input[type="button"] {
+input[type=button] {
   width: auto;
   overflow: hidden;
 }
@@ -205,31 +202,20 @@ a {
 /* lightest grey - used for outlines */
 /* Other Colors used */
 .batTopHome {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .BatBottemHome {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .batArt {
   background-color: rgba(15, 15, 15, 0.99);
-  -webkit-box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset, 0 0px 15px rgba(0, 0, 0, 0.8) 0 0px 15px rgba(0, 0, 0, 0.8);
   height: 40rem;
   width: 30rem;
   border-radius: 0.75rem;
@@ -298,12 +284,8 @@ a {
 
 .BatAges {
   width: 96%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -379,14 +361,9 @@ a {
 }
 
 .Charhold {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -396,13 +373,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #010055 solid;
+  border: 1px rgb(1, 0, 85) solid;
 }
 
 .CharacterOrigin {
   color: white;
   text-align: center;
-  border-top: 2px #010055 solid;
+  border-top: 2px rgb(1, 0, 85) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -414,13 +391,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #010055 solid;
+  border: 1px rgb(1, 0, 85) solid;
 }
 
 .CharacterOrigin1 {
   color: white;
   text-align: center;
-  border-top: 2px #010055 solid;
+  border-top: 2px rgb(1, 0, 85) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -432,13 +409,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #00aeff solid;
+  border: 1px rgb(0, 174, 255) solid;
 }
 
 .CharacterOrigin2 {
   color: white;
   text-align: center;
-  border-top: 2px #00aeff solid;
+  border-top: 2px rgb(0, 174, 255) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -450,13 +427,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #850000 solid;
+  border: 1px rgb(133, 0, 0) solid;
 }
 
 .CharacterOrigin3 {
   color: white;
   text-align: center;
-  border-top: 2px #850000 solid;
+  border-top: 2px rgb(133, 0, 0) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -468,13 +445,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #fbff00 solid;
+  border: 1px rgb(251, 255, 0) solid;
 }
 
 .CharacterOrigin4 {
   color: white;
   text-align: center;
-  border-top: 2px #fbff00 solid;
+  border-top: 2px rgb(251, 255, 0) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -486,13 +463,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #9900ff solid;
+  border: 1px rgb(153, 0, 255) solid;
 }
 
 .CharacterOrigin5 {
   color: white;
   text-align: center;
-  border-top: 2px #9900ff solid;
+  border-top: 2px rgb(153, 0, 255) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -504,13 +481,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
 }
 
 .CharacterOrigin6 {
   color: white;
   text-align: center;
-  border-top: 2px red solid;
+  border-top: 2px rgb(255, 0, 0) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -522,13 +499,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px lightgray solid;
+  border: 1px rgb(211, 211, 211) solid;
 }
 
 .CharacterOrigin7 {
   color: white;
   text-align: center;
-  border-top: 2px lightgray solid;
+  border-top: 2px rgb(211, 211, 211) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -540,13 +517,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
 }
 
 .CharacterOrigin8 {
   color: white;
   text-align: center;
-  border-top: 2px red solid;
+  border-top: 2px rgb(255, 0, 0) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -558,13 +535,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #009bd8 solid;
+  border: 1px rgb(0, 155, 216) solid;
 }
 
 .CharacterOrigin9 {
   color: white;
   text-align: center;
-  border-top: 2px #009bd8 solid;
+  border-top: 2px rgb(0, 155, 216) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -576,271 +553,200 @@ a {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.75rem;
-  border: 1px #00ffbf solid;
+  border: 1px rgb(0, 255, 191) solid;
 }
 
 .CharacterOrigin10 {
   color: white;
   text-align: center;
-  border-top: 2px #00ffbf solid;
+  border-top: 2px rgb(0, 255, 191) solid;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .CharacterHolder:hover {
-  -webkit-box-shadow: #010055 1px 1px 2px 2px;
-          box-shadow: #010055 1px 1px 2px 2px;
+  box-shadow: rgb(1, 0, 85) 1px 1px 2px 2px;
 }
 
 .CharacterHolder1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder1:hover {
-  -webkit-box-shadow: #000872 1px 1px 2px 2px;
-          box-shadow: #000872 1px 1px 2px 2px;
+  box-shadow: rgb(0, 8, 114) 1px 1px 2px 2px;
 }
 
 .CharacterHolder2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder2:hover {
-  -webkit-box-shadow: #00aeff 1px 1px 2px 2px;
-          box-shadow: #00aeff 1px 1px 2px 2px;
+  box-shadow: rgb(0, 174, 255) 1px 1px 2px 2px;
 }
 
 .CharacterHolder3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder3:hover {
-  -webkit-box-shadow: #850000 1px 1px 2px 2px;
-          box-shadow: #850000 1px 1px 2px 2px;
+  box-shadow: rgb(133, 0, 0) 1px 1px 2px 2px;
 }
 
 .CharacterHolder4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder4:hover {
-  -webkit-box-shadow: #fbff00 1px 1px 2px 2px;
-          box-shadow: #fbff00 1px 1px 2px 2px;
+  box-shadow: rgb(251, 255, 0) 1px 1px 2px 2px;
 }
 
 .CharacterHolder5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder5:hover {
-  -webkit-box-shadow: #9900ff 1px 1px 2px 2px;
-          box-shadow: #9900ff 1px 1px 2px 2px;
+  box-shadow: rgb(153, 0, 255) 1px 1px 2px 2px;
 }
 
 .CharacterHolder6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder6:hover {
-  -webkit-box-shadow: red 1px 1px 2px 2px;
-          box-shadow: red 1px 1px 2px 2px;
+  box-shadow: rgb(255, 0, 0) 1px 1px 2px 2px;
 }
 
 .CharacterHolder7 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder7:hover {
-  -webkit-box-shadow: lightgray 1px 1px 2px 2px;
-          box-shadow: lightgray 1px 1px 2px 2px;
+  box-shadow: rgb(211, 211, 211) 1px 1px 2px 2px;
 }
 
 .CharacterHolder8 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder8:hover {
-  -webkit-box-shadow: red 1px 1px 2px 2px;
-          box-shadow: red 1px 1px 2px 2px;
+  box-shadow: rgb(255, 0, 0) 1px 1px 2px 2px;
 }
 
 .CharacterHolder9 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder9:hover {
-  -webkit-box-shadow: #009bd8 1px 1px 2px 2px;
-          box-shadow: #009bd8 1px 1px 2px 2px;
+  box-shadow: rgb(0, 155, 216) 1px 1px 2px 2px;
 }
 
 .CharacterHolder10 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 45vw;
   height: 175vh;
-  background-color: #0e0e0e;
+  background-color: rgb(14, 14, 14);
   border-radius: 0.75rem;
   margin-left: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .CharacterHolder10:hover {
-  -webkit-box-shadow: #00ffbf 1px 1px 2px 2px;
-          box-shadow: #00ffbf 1px 1px 2px 2px;
+  box-shadow: rgb(0, 255, 191) 1px 1px 2px 2px;
 }
 
 .CharacterIMG {
@@ -896,7 +802,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #010055 solid;
+  border: 1px rgb(1, 0, 85) solid;
 }
 
 .Measurments2 {
@@ -904,7 +810,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #00aeff solid;
+  border: 1px rgb(0, 174, 255) solid;
 }
 
 .Measurments3 {
@@ -912,7 +818,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #850000 solid;
+  border: 1px rgb(133, 0, 0) solid;
 }
 
 .Measurments4 {
@@ -920,7 +826,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #fbff00 solid;
+  border: 1px rgb(251, 255, 0) solid;
 }
 
 .Measurments5 {
@@ -928,7 +834,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #9900ff solid;
+  border: 1px rgb(153, 0, 255) solid;
 }
 
 .Measurments6 {
@@ -936,7 +842,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
 }
 
 .Measurments7 {
@@ -944,7 +850,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px lightgray solid;
+  border: 1px rgb(211, 211, 211) solid;
 }
 
 .Measurments8 {
@@ -952,7 +858,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
 }
 
 .Measurments9 {
@@ -960,7 +866,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #009bd8 solid;
+  border: 1px rgb(0, 155, 216) solid;
 }
 
 .Measurments10 {
@@ -968,7 +874,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #00ffbf solid;
+  border: 1px rgb(0, 255, 191) solid;
 }
 
 .CharacterVillains {
@@ -987,7 +893,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #010055 solid;
+  border: 1px rgb(1, 0, 85) solid;
 }
 
 .Villains2 {
@@ -995,7 +901,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #00aeff solid;
+  border: 1px rgb(0, 174, 255) solid;
 }
 
 .Villains3 {
@@ -1003,7 +909,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #850000 solid;
+  border: 1px rgb(133, 0, 0) solid;
 }
 
 .Villains4 {
@@ -1011,7 +917,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #fbff00 solid;
+  border: 1px rgb(251, 255, 0) solid;
 }
 
 .Villains5 {
@@ -1019,7 +925,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #9900ff solid;
+  border: 1px rgb(153, 0, 255) solid;
 }
 
 .Villains6 {
@@ -1027,7 +933,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
 }
 
 .Villains7 {
@@ -1035,7 +941,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px lightgray solid;
+  border: 1px rgb(211, 211, 211) solid;
 }
 
 .Villains8 {
@@ -1043,7 +949,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
 }
 
 .Villains9 {
@@ -1051,7 +957,7 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #009bd8 solid;
+  border: 1px rgb(0, 155, 216) solid;
 }
 
 .Villains10 {
@@ -1059,11 +965,11 @@ a {
   margin-top: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
-  border: 1px #00ffbf solid;
+  border: 1px rgb(0, 255, 191) solid;
 }
 
 .SkillsHolder {
-  border: 1px #0053b3 solid;
+  border: 1px rgb(0, 83, 179) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1079,11 +985,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #0053b3 solid;
+  border-bottom: 2px rgb(0, 83, 179) solid;
 }
 
 .SkillsHolder1 {
-  border: 1px #010055 solid;
+  border: 1px rgb(1, 0, 85) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1099,11 +1005,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #010055 solid;
+  border-bottom: 2px rgb(1, 0, 85) solid;
 }
 
 .SkillsHolder2 {
-  border: 1px #00aeff solid;
+  border: 1px rgb(0, 174, 255) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1119,11 +1025,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #00aeff solid;
+  border-bottom: 2px rgb(0, 174, 255) solid;
 }
 
 .SkillsHolder3 {
-  border: 1px #850000 solid;
+  border: 1px rgb(133, 0, 0) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1139,11 +1045,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #850000 solid;
+  border-bottom: 2px rgb(133, 0, 0) solid;
 }
 
 .SkillsHolder4 {
-  border: 1px #fbff00 solid;
+  border: 1px rgb(251, 255, 0) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1159,11 +1065,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #fbff00 solid;
+  border-bottom: 2px rgb(251, 255, 0) solid;
 }
 
 .SkillsHolder5 {
-  border: 1px #9900ff solid;
+  border: 1px rgb(153, 0, 255) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1179,11 +1085,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #9900ff solid;
+  border-bottom: 2px rgb(153, 0, 255) solid;
 }
 
 .SkillsHolder6 {
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1199,11 +1105,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px red solid;
+  border-bottom: 2px rgb(255, 0, 0) solid;
 }
 
 .SkillsHolder7 {
-  border: 1px lightgray solid;
+  border: 1px rgb(211, 211, 211) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1219,11 +1125,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px lightgray solid;
+  border-bottom: 2px rgb(211, 211, 211) solid;
 }
 
 .SkillsHolder8 {
-  border: 1px red solid;
+  border: 1px rgb(255, 0, 0) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1239,11 +1145,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px red solid;
+  border-bottom: 2px rgb(255, 0, 0) solid;
 }
 
 .SkillsHolder9 {
-  border: 1px #009bd8 solid;
+  border: 1px rgb(0, 155, 216) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1259,11 +1165,11 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #009bd8 solid;
+  border-bottom: 2px rgb(0, 155, 216) solid;
 }
 
 .SkillsHolder10 {
-  border: 1px #00ffbf solid;
+  border: 1px rgb(0, 255, 191) solid;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.75rem;
   margin-top: 1rem;
@@ -1279,7 +1185,7 @@ a {
   text-align: center;
   color: white;
   font-size: 1.5rem;
-  border-bottom: 2px #00ffbf solid;
+  border-bottom: 2px rgb(0, 255, 191) solid;
 }
 
 .CharacterSkills {
@@ -1304,14 +1210,12 @@ a {
   height: 3rem;
   width: 12rem;
   border-radius: 0.75rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  background-color: hsla(0, 0%, 0%, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 .Btn-link:hover {
-  -webkit-box-shadow: white 1px 1px 2px;
-          box-shadow: white 1px 1px 2px;
+  box-shadow: white 1px 1px 2px;
 }
 
 .btn-Text {
@@ -1328,19 +1232,17 @@ a {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: hsla(0, 0%, 0%, 0.9);
   border-radius: 0.75rem;
   font-family: Batman;
-  -webkit-box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0px 15px rgba(0, 0, 0, 0.8), 0 0px 15px rgba(0, 0, 0, 0.8);
 }
 
 #slideshow {
   margin: 0 auto;
   height: 600px;
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .slideshow-title {
@@ -1394,8 +1296,7 @@ a {
 .entire-content {
   margin: auto;
   width: 190px;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
+  perspective: 1000px;
   position: relative;
   padding-top: 80px;
 }
@@ -1404,15 +1305,12 @@ a {
   width: 100%;
   position: absolute;
   float: right;
-  -webkit-animation: rotar 30s infinite linear;
-          animation: rotar 30s infinite linear;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  animation: rotar 30s infinite linear;
+  transform-style: preserve-3d;
 }
 
 .content-carrousel:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+  animation-play-state: paused;
   cursor: pointer;
 }
 
@@ -1425,99 +1323,71 @@ a {
 }
 
 .content-carrousel figure:nth-child(1) {
-  -webkit-transform: rotateY(0deg) translateZ(300px);
-          transform: rotateY(0deg) translateZ(300px);
+  transform: rotateY(0deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(2) {
-  -webkit-transform: rotateY(40deg) translateZ(300px);
-          transform: rotateY(40deg) translateZ(300px);
+  transform: rotateY(40deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(3) {
-  -webkit-transform: rotateY(80deg) translateZ(300px);
-          transform: rotateY(80deg) translateZ(300px);
+  transform: rotateY(80deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(4) {
-  -webkit-transform: rotateY(120deg) translateZ(300px);
-          transform: rotateY(120deg) translateZ(300px);
+  transform: rotateY(120deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(5) {
-  -webkit-transform: rotateY(160deg) translateZ(300px);
-          transform: rotateY(160deg) translateZ(300px);
+  transform: rotateY(160deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(6) {
-  -webkit-transform: rotateY(200deg) translateZ(300px);
-          transform: rotateY(200deg) translateZ(300px);
+  transform: rotateY(200deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(7) {
-  -webkit-transform: rotateY(240deg) translateZ(300px);
-          transform: rotateY(240deg) translateZ(300px);
+  transform: rotateY(240deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(8) {
-  -webkit-transform: rotateY(280deg) translateZ(300px);
-          transform: rotateY(280deg) translateZ(300px);
+  transform: rotateY(280deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(9) {
-  -webkit-transform: rotateY(320deg) translateZ(300px);
-          transform: rotateY(320deg) translateZ(300px);
+  transform: rotateY(320deg) translateZ(300px);
 }
 
 .content-carrousel figure:nth-child(10) {
-  -webkit-transform: rotateY(360deg) translateZ(300px);
-          transform: rotateY(360deg) translateZ(300px);
+  transform: rotateY(360deg) translateZ(300px);
 }
 
 .shadow {
   position: absolute;
-  -webkit-box-shadow: 0px 0px 20px 0px #030063;
-          box-shadow: 0px 0px 20px 0px #030063;
+  box-shadow: 0px 0px 20px 0px rgb(3, 0, 99);
   border-radius: 1px;
 }
 
 .content-carrousel img {
   image-rendering: auto;
-  -webkit-transition: all 300ms;
   transition: all 300ms;
   width: 100%;
   height: 22rem;
 }
 
 .content-carrousel img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: all 400ms;
+  transform: scale(1.2);
   transition: all 400ms;
-}
-
-@-webkit-keyframes rotar {
-  from {
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg);
-  }
-  to {
-    -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg);
-  }
 }
 
 @keyframes rotar {
   from {
-    -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg);
+    transform: rotateY(0deg);
   }
   to {
-    -webkit-transform: rotateY(360deg);
-            transform: rotateY(360deg);
+    transform: rotateY(360deg);
   }
 }
-
 .Live-Movie-HEAD {
   text-align: center;
   color: white;
@@ -1536,8 +1406,7 @@ a {
 }
 
 .slideshow-Movies {
-  -webkit-box-shadow: white 1px 1px 2px 2px;
-          box-shadow: white 1px 1px 2px 2px;
+  box-shadow: white 1px 1px 2px 2px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -1547,14 +1416,9 @@ a {
 }
 
 .TV-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
   margin-top: 1rem;
@@ -1565,7 +1429,7 @@ a {
   width: 25rem;
   height: 25rem;
   margin-bottom: 2rem;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: hsla(0, 0%, 0%, 0.8);
   border: 1px white solid;
 }
 
@@ -1619,7 +1483,7 @@ a {
 }
 
 .Games {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   opacity: 0.8;
   border-radius: 0.75rem;
   height: 43rem;
@@ -1627,8 +1491,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
-  -webkit-box-shadow: #4b4b4b 2px 2px 2px 2px;
-          box-shadow: #4b4b4b 2px 2px 2px 2px;
+  box-shadow: rgb(75, 75, 75) 2px 2px 2px 2px;
 }
 
 .Game-IMG {
@@ -1641,7 +1504,7 @@ a {
   position: relative;
   top: 1rem;
   opacity: 1;
-  border: #252525 1px solid;
+  border: rgb(37, 37, 37) 1px solid;
 }
 
 .Game-NAME {
@@ -1731,14 +1594,9 @@ a {
 
 .Navbar {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   font-family: Batman;
@@ -1766,8 +1624,8 @@ a {
 }
 
 .link:hover {
-  -webkit-text-decoration: underline wavy #c5c5c5;
-          text-decoration: underline wavy #c5c5c5;
+  -webkit-text-decoration: underline wavy rgb(197, 197, 197);
+          text-decoration: underline wavy rgb(197, 197, 197);
 }
 
 .link:active {
@@ -1777,21 +1635,16 @@ a {
 .footer {
   width: 100%;
   height: 12rem;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border-top: 1px solid white;
 }
 
 .footerHolder {
   margin-left: 0rem;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
@@ -1879,5 +1732,4 @@ a {
 @font-face {
   font-family: Batman;
   src: url("../Fonts/Batman.ttf");
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
